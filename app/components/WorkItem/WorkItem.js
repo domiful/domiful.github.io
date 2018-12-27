@@ -1,0 +1,31 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import './style.scss';
+import ImageZoom from 'react-medium-image-zoom'
+
+
+const WorkItem = (props) => (
+  <div className="work-item-wrapper">
+    <span className="pimg">
+      <img src="" alt=""/>
+      <ImageZoom
+        image={{
+          src: 'https://vignette.wikia.nocookie.net/the-darkest-minds/images/4/47/Placeholder.png/revision/latest?cb=20160927044640',
+          alt: 'Golden Gate Bridge',
+          className: 'img',
+        }}
+      />
+    </span>
+    <span className="pwords">
+      <div className="pheader">{props.title}</div>
+      <div className={"pinfo " + props.section}>{props.info}</div>
+    </span>
+    
+  </div>
+);
+
+WorkItem.propTypes = {
+  item: PropTypes.any
+};
+
+export default WorkItem;

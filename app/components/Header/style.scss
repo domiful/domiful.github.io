@@ -1,0 +1,142 @@
+$blue: #57A6F8;
+$green:#85AC4E;
+$yellow: #EFD565;
+$orange:#E2A148;
+$red:#EE6A64;
+$purple:#A770C1;
+$pink: #F2A7DD;
+
+$midi: 768px;
+$mini: 414px;
+
+
+
+.header {
+  padding: 5em .5em 1em 0.5em;
+  position: relative;
+  img {
+    width: 24%;
+    margin: 0 auto;
+    //display: block;
+  }
+  .arrow{display: none;}
+  .nav-bar {
+    text-align: center;
+    position: absolute;
+    bottom: 0.2em;
+    right: .6em;
+    transition: color 0.25s;
+  }
+  
+
+  .router-link {
+    display: inline-flex;
+    margin:0 0 0.25em .2em;
+    padding: 0 .2em;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    letter-spacing: 0;
+    color: slategrey;
+    position: relative;
+    &:hover:not(.selected) {
+      color: $purple;
+      font-size: 1.36em;
+      letter-spacing: 0.1em;
+      font-family: 'Bungee Outline', Helvetica, Arial, sans-serif;
+      transition: font-size .2s ease, font-family .2s ease;
+    }
+
+    &:active {
+      &.about{color:$blue;}
+      &.dev{color:$green;}
+      &.contact{color:$orange;}
+      padding: 0 0.1em .1em 0.1em;
+      font-size: 1.36em;
+      letter-spacing: 0;
+      font-family: 'Bungee Shade', Helvetica, Arial, sans-serif;
+      transition: padding .2s ease, font-family .2s ease;
+    }
+
+    &.selected {
+      &.about{color:$blue;}
+      &.dev{color:$green;}
+      &.contact{color:$orange;}
+      padding: 0.2em 0.1em;
+      font-size: 1.36em;
+      font-family: 'Bungee Shade', Helvetica, Arial, sans-serif;
+    }
+  }
+
+  @media only screen and (max-width: $mini) {
+    padding-top: 1em;
+    img {
+      width: 28%;
+      margin: 0 auto;
+      //display: block;
+    }
+    .arrow {
+      display: block;
+      position: absolute;
+      top: .6em;
+      right: .6em;
+      animation: slide1 2s ease-in-out infinite;
+      margin-left: 9px;
+      margin: 0 1em;
+      img{
+        width: 1em;
+        height: .5em;
+        margin: 0 .2em;
+        //transform: rotate(180deg);
+      }
+      
+    }
+    .nav-bar{
+      margin-right:-.5em;
+      padding: 2.4em 2em 0em 2em;
+      width: 60%;
+      height: 100%;
+        
+      white-space: nowrap;
+      overflow-x: scroll;
+        .router-link{
+          margin-top: -1em;
+          &.selected{
+          }
+      }
+
+      @keyframes slide1 {
+        0%,
+        100% {
+          transform: translate(0, 0);
+        }
+      
+        50% {
+          transform: translate(1em, 0);
+        }
+      }
+    }
+    
+  }
+
+  
+
+  @keyframes rise {
+      0%   {up:0px;}
+      50%  {up:.2em; right:.1em;}
+      100% {up:0px;}
+  }
+
+
+}
+
+#header-border{
+  border-top: 0.15em dotted lightgray;
+  border-radius: 2em;
+}
