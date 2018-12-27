@@ -28,12 +28,12 @@ const Section = (props) => (
     <div className="minititle about">Web</div>
 
     <span className="litems">
-      <WorkItem title="Charles &amp; Colvard" info="This is where a info is going fmi."/>
-      <WorkItem title="Cree" info="This is where a info is going fmi."/>
-      <WorkItem title="Rivers Agency" info="This is where a info is going fmi."/>
-      <WorkItem title="Smarties Store" info="This is where a info is going fmi."/>
-      <WorkItem title="NAPSACC" info="This is where a info is going fmi."/>
-      <WorkItem title="Fantastic Sams" info="This is where a info is going fmi."/>
+      <WorkItem title="Charles &amp; Colvard" info="This is where a info is going fmi." imgs={["https://drive.google.com/uc?id=1Tz0DTOP9hy6gH3HYSVo5F2I11xmBjqj4","https://drive.google.com/uc?id=1FYR0iyHmm5u5QLUnVGbx98kk87CoI4cG"]}/>
+      <WorkItem title="Cree" info="This is where a info is going fmi." imgs={["https://drive.google.com/uc?id=1YqWtYFUmpX641sJeXex6xx2032k8oarA","https://drive.google.com/uc?id=1nSnJUh_90owT3q9PWTH4F7De8oBj_pru"]}/>
+      <WorkItem title="Rivers Agency" info="This is where a info is going fmi." imgs={["https://drive.google.com/uc?id=1VLHkx4uq5T7g-dYUx7367NQoH4Vus8SF","https://drive.google.com/uc?id=1h12qi7T2rsfW5Usd2zHxrU_gCAAr9KQg"]}/>
+      <WorkItem title="Smarties Store" info="This is where a info is going fmi." imgs={["https://drive.google.com/uc?id=1_wiR7jrLZNMCtcdbI8FfGk_JoXbi8fZH","https://drive.google.com/uc?id=1PybQLFx8TjoHMQYInfJaQiDHwwNqr_yW"]}/>
+      <WorkItem title="NAPSACC" info="This is where a info is going fmi." imgs={["https://drive.google.com/uc?id=1BZaua050PKpYu4guq4o0EB5KJeLHst6w","https://drive.google.com/uc?id=1wx8w5Zm9mwa7N0tLg0avrVWUK6zCbKKt"]}/>
+      <WorkItem title="Fantastic Sams" info="This is where a info is going fmi." imgs={["https://drive.google.com/uc?id=1ZzpGQmrDr8892FWAGM0OuWLBaNEnq1cq","https://drive.google.com/uc?id=1nbjXHcPW8Tva81uCNnHD9D9AY7ejUJq1"]}/>
 
     </span>
     <br />
