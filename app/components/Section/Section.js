@@ -40,9 +40,9 @@ const Section = (props) => (
     <div className="minititle about">Apps</div>
 
     <span className="litems">
-      <WorkItem title="Fleet Monitor" info="IOT Asset Monitoring &amp; Analytics"/>
-      <WorkItem title="Prospect Finder" info="Geolocation &amp; Analytics"/>
-      <WorkItem title="Chatbot HRM" info="This is where a info is going fmi."/>
+      <WorkItem title="Fleet Monitor" info="IOT Asset Monitoring &amp; Analytics" imgs={["https://drive.google.com/uc?id=1KpdhEDU4iPpokMzPklvYlX_ikIphZPvY","https://drive.google.com/uc?id=1AlUcEc_7lmSvaA6qCIiP0ARtpNvl3fC1","https://drive.google.com/uc?id=1HZk6PIHAUtpIoP6d0-_4qQs63c8MI0J6","https://drive.google.com/uc?id=1FGhaUwx4uWkmD-M8NgYDtYYUJYhYi6bd"]}/>
+      <WorkItem title="Prospect Finder" info="Geolocation &amp; Analytics" imgs={["https://drive.google.com/uc?id=13758RFb8YpbTvBMbWhrR2TNL31Dfyr0W","https://drive.google.com/uc?id=1uttGpED9bjm5THQ_7Uz60Ix0XXQiy3RZ"]}/>
+      <WorkItem title="Chatbot HRM" info="This is where a info is going fmi." imgs={["https://drive.google.com/uc?id=1Qrq5NqccBcqiBtI8lLsEQNN4W2mUUT7K","https://drive.google.com/uc?id=1wxhlZqW_8UmfiE2F2CgiKto6g9NWD_Qj","https://drive.google.com/uc?id=1u7uQVDiC_9lL4PTiKdWYlx8SbmUSgkiq"]}/>
 
     </span>
     
@@ -54,8 +54,7 @@ const Section = (props) => (
 
     </div>
     <span className="litems">
-      <ContactItem title="Email" info="This is where a info is going fmi."/>
-      <ContactItem title="LinkedIn" info="This is where a info is going fmi."/>
+      <ContactItem title="Contact" info="This is where a info is going fmi."/>
     </span>
   </div>
   </div>

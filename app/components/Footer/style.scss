@@ -3,12 +3,12 @@ footer {
   justify-content: space-between;
   padding: 3em 0;
   border-top: 1px solid #666;
-
+  font-size: .6em;
   a {
-    color: #41addd;
+    color: gray;
   
     &:hover {
-      color: #6cc0e5;
+      color: purple;
     }
   }
 }

@@ -3,13 +3,11 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 const ContactItem = (props) => (
-  <div className="list-item-wrapper">
-    <span className="pwords">
-      <div className="pheader">{props.title}</div>
-      <div className={"pinfo " + props.section}>{props.info}</div>
-    </span>
-    <span className="pimg">
-      <img src="https://vignette.wikia.nocookie.net/the-darkest-minds/images/4/47/Placeholder.png/revision/latest?cb=20160927044640" alt=""/>
+  <div className="contact-item-wrapper">
+
+    <span className="pimg"> 
+      <img src="https://cdn3.iconfinder.com/data/icons/mix-2/100/Untitled-24-512.png" alt="email"/>
+      <img src="https://s18955.pcdn.co/wp-content/uploads/2017/05/LinkedIn.png" alt="linkedin"/>
     </span>
     
   </div>

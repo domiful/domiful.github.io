@@ -9,7 +9,7 @@ $pink: #F2A7DD;
 $midi: 768px;
 $mini: 414px;
 
-.list-item-wrapper {
+.contact-item-wrapper {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -39,12 +39,11 @@ $mini: 414px;
     }
   }
   .pimg{
-    align-items: center;
-    width:60%;
-    padding-right:1em;
+    width:100%;
+    text-align: right;
     img{
-      width:100%;
-      height: 100%;
+      padding: 0 1em;
+      height: 5em;
     }
   }
 

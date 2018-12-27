@@ -29,7 +29,7 @@ const WorkItem = (props) => (
     </span>
     <span className="pwords">
       <div className="pheader">{props.title}</div>
-      <div className={"pinfo " + props.section}>{props.info}</div>
+      <div className="pinfo dev">{props.info}</div>
     </span>
     
   </div>
