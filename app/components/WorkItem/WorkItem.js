@@ -28,7 +28,7 @@ const WorkItem = (props) => (
       
     </span>
     <span className="pwords">
-      <div className="pheader">{props.title}</div>
+      {props.link ?<a href={props.link} target="_blank"><div className="pheader">{props.title}</div></a> : <div className="pheader">{props.title}</div>}
       <div className="pinfo dev">{props.info}</div>
     </span>
     

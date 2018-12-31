@@ -15,7 +15,9 @@ $mini: 414px;
   flex-flow: row wrap;
   position: relative;
   margin: 2em 0 5em 0;
-
+  a{
+    text-decoration: none;
+  }
   .pwords{
     width: 100%;
     padding:0.3em 0;
@@ -23,7 +25,10 @@ $mini: 414px;
     .pheader {
       font-family: 'Bungee Inline', Helvetica, Arial, sans-serif;
       color:lightslategray;
-      font-size: 1.8em;      
+      font-size: 1.8em;
+      &:hover{
+        color: $purple;
+      }
     }
   
     .pinfo {
