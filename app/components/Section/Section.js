@@ -9,6 +9,7 @@ import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } 
 import phil from "../../images/about/phil.jpg";
 import prof from "../../images/about/prof.png";
 import res from "../../images/about/resume_snap.png";
+import site from "../../images/site.gif";
 
 const Section = (props) => (
   
@@ -62,7 +63,7 @@ const Section = (props) => (
 
       <span className="litems">
         <WorkItem title="IBM Mobile First" info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing." imgs={["https://www.ibm.com/developerworks/community/blogs/5fdcd114-179e-4a1f-be70-3dbcc261a4da/resource/BLOGS_UPLOADED_IMAGES/IBMMobileFirst.png"]}/>
-        <WorkItem title="This site" info="I designed and coded this site myself. With the exception for the websites that goes for the content too. The websites were designed by graphic designers at Rivers Agency, but I had to turn their vision into reality by coding them. I will continue to update the site. I already have a pipeline of content!" imgs={["https://drive.google.com/uc?id=13758RFb8YpbTvBMbWhrR2TNL31Dfyr0W","https://drive.google.com/uc?id=1uttGpED9bjm5THQ_7Uz60Ix0XXQiy3RZ"]}/>
+        <WorkItem title="This site" info="I designed and coded this site myself. With the exception for the websites that goes for the content too. The websites were designed by graphic designers at Rivers Agency, but I had to turn their vision into reality by coding them. I will continue to update the site. I already have a pipeline of content!" imgs={[site]}/>
       </span>
       </Element>
 
