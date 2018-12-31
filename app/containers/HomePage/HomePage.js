@@ -39,7 +39,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           <title>About Me</title>
           <meta name="description" content="This section is the section." />
         </Helmet>
-        <div className="home-page">
+        <div className="home-page" id="content">
           <section className="centered">
             <Section title="About Me" info="This is where a info is going hoe." section="about"/>
           </section>

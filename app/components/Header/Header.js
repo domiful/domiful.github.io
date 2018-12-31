@@ -1,17 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Logo from './images/Logo.png';
 import arrow from './images/arrow.svg'
 import './style.scss';
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
   
   constructor(props) {
     super(props);
-    this.state = {isToggleOn: true};
+    this.state = {
+      isToggleOn: true,
+      about: "",
+      dev: "",
+      contact: ""
+    };
 
     // This binding is necessary to make `this` work in the callback
     this.handleClick = this.handleClick.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.moveBar);
   }
 
   handleClick(event) {
@@ -26,7 +36,9 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
       isToggleOn: !prevState.isToggleOn
     }));
   }
-
+  handleSetActive(to){
+    console.log(to);
+  }
   scrolled(o)
     {
         console.log(document.getElementsByClassName('nav-bar')[0].scrollLeft);
@@ -46,11 +58,23 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
         
 
     }
+  moveBar(){
+    let head = document.getElementById("header");
+    if(head && window.scrollY>50 && window.innerWidth>=414){
+      //console.log(window.scrollY);
+      head.classList.add("stick");
+      document.getElementById("content").style.marginTop = '10em';
+    }else if(head && window.scrollY<10 && window.innerWidth>=414){
+      head.classList.remove("stick");
+      document.getElementById("content").style.marginTop = '0';
+    }
+
+  }
 
   render() {
     return (
-      <div>
-      <div className="header" onClick={this.handleClick}>
+      <nav>
+      <div className="header" id="header" onScroll={this.moveBar()}>
         <a href="https://domiful.github.io">
           <img src={Logo} alt="simple logo" />
         </a>
@@ -63,15 +87,33 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
               <img className="aimg" src={arrow} alt="simple logo" />
               <img className="aimg" src={arrow} alt="simple logo" />
           </div>
-          <div className="nav-bar" onScroll={(e)=>{this.scrolled()}}>
+          <div className="nav-bar" onScroll={(e)=>{this.moveBar(e)}}>
             <div>
-              <Link className="router-link about selected" to="/">
+            <Link activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                className="router-link about"to="about">
                 About
               </Link>
-              <Link className="router-link dev" to="/features">
+              <Link activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                className="router-link dev" to="work">
                 Work
               </Link>
-              <Link className="router-link contact" to="/features">
+              <Link activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-350}
+                duration={500}
+                className="router-link contact" to="contact">
                 Contact
               </Link>
             </div>
@@ -80,7 +122,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
         
       </div>
       <div id="header-border"><div> &nbsp;</div></div>
-      </div>
+      </nav>
     );
   }
 }

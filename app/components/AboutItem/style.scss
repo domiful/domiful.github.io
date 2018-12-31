@@ -14,7 +14,7 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 2em 0;
+  margin: 2em 0 5em 0;
   .pwords{
     width: 40%;
     padding:0.3em 1.2em;
@@ -27,6 +27,7 @@ $mini: 414px;
     }
   
     .pinfo {
+      padding-top: .4em;
       float: right;
       border-top-right-radius: .2em;
       font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
@@ -43,8 +44,10 @@ $mini: 414px;
     width:60%;
     padding-right:1em;
     img{
-      width:100%;
-      height: 100%;
+      max-width:80%;
+      //height: 100%;
+      max-height: 32em;
+      border-radius: 6%;
     }
   }
 
@@ -54,8 +57,8 @@ $mini: 414px;
       display: block;
       padding:0;
       .pheader, .pinfo {
-        float: left;
-        text-align: left;
+        float: right;
+        text-align: right;
       }
     }
     .pimg{
@@ -74,10 +77,10 @@ $mini: 414px;
         display: block;
       }
       .pheader{
-        text-align: left;
+        text-align: right;
       }
       .pinfo{
-        float:left;
+        float:right;
       }
     }
     .pimg{

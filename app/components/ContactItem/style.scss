@@ -15,6 +15,7 @@ $mini: 414px;
   flex-flow: row wrap;
   position: relative;
   margin: 2em 0;
+  margin-bottom: 16em;
   .pwords{
     width: 40%;
     padding:0.3em 1.2em;
@@ -43,7 +44,7 @@ $mini: 414px;
     text-align: right;
     img{
       padding: 0 1em;
-      height: 5em;
+      width: 7em;
     }
   }
 

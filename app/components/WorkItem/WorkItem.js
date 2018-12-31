@@ -5,15 +5,15 @@ import ImageZoom from 'react-medium-image-zoom';
 
 
 const WorkItem = (props) => (
-  <div className="work-item-wrapper">
+  <div className="work-item-wrapper" data-aos="fade-up-left">
     <span className="pimg">
     
     {
       props.imgs ? props.imgs.map(img=>{
-         return <ImageZoom
+         return <ImageZoom key={img}
             image={{
             src: img,
-            alt: 'Golden Gate Bridge',
+            alt: 'img',
             className: 'img',
             }}
           />

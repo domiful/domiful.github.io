@@ -14,7 +14,8 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 2em 0;
+  margin: 2em 0 5em 0;
+
   .pwords{
     width: 100%;
     padding:0.3em 0;
@@ -26,6 +27,7 @@ $mini: 414px;
     }
   
     .pinfo {
+      padding-top: .4em;
       float: right;
       border-top-right-radius: .2em;
       font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
@@ -60,18 +62,26 @@ $mini: 414px;
       display: block;
       padding:0;
       .pheader, .pinfo {
-        float: left;
-        text-align: left;
+        float: right;
+        text-align: right;
       }
     }
     .pimg{
-      display: block;
-      width:100%;
-      padding: .6em 0;
+      white-space:nowrap;
+      overflow-x: scroll;
+      height: 16em;
+      //display: inline;
+      img{
+        display: inline;
+        //width:100%;
+        padding: .6em 0;
+      }
     }
   }
 
   @media only screen and (max-width: $midi) {
+    text-align: right;
+
     .pwords{
       width: 100%;
       display: block;
@@ -80,16 +90,22 @@ $mini: 414px;
         display: block;
       }
       .pheader{
-        text-align: left;
+        text-align: right;
       }
       .pinfo{
-        float:left;
+        float:right;
       }
     }
     .pimg{
-      display: block;
-      width:100%;
-      padding: .6em 0;
+      white-space:nowrap;
+      overflow-x: scroll;
+      height: 16em;
+      //display: inline;
+      img{
+        display: inline;
+        //width:100%;
+        padding: .6em 0;
+      }
     }
   }
 
