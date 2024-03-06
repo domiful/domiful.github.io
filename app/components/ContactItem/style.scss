@@ -1,5 +1,5 @@
 $blue: #57A6F8;
-$green:#85AC4E;
+$green:#387C44;
 $yellow: #EFD565;
 $orange:#E2A148;
 $red:#EE6A64;
@@ -22,8 +22,8 @@ $mini: 414px;
     text-align: right;
 
     .pheader {
-      font-family: 'Bungee Inline', Helvetica, Arial, sans-serif;
-      color:lightslategray;
+      font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
+      color:white;
       font-size: 1.8em;      
     }
   
@@ -31,7 +31,7 @@ $mini: 414px;
       float: right;
       border-top-right-radius: .2em;
       font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
-      color:lightslategray;
+      color:white;
       font-size: 1.2em;
       font-weight: 500;
       &.about{border-top: 0.06em dotted $blue;}

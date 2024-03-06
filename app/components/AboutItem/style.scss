@@ -1,28 +1,31 @@
 $blue: #57A6F8;
-$green:#85AC4E;
+$green:#387C44;
 $yellow: #EFD565;
 $orange:#E2A148;
 $red:#EE6A64;
 $purple:#A770C1;
 $pink: #F2A7DD;
 
+
+
 $midi: 768px;
 $mini: 414px;
 
 .list-item-wrapper {
-  width: 100%;
+  //width: 100%;
   display: flex;
   flex-flow: row wrap;
   position: relative;
   margin: 2em 0 5em 0;
   .pwords{
     width: 40%;
-    padding:0.3em 1.2em;
+    //padding:0.3em 1.2em;
     text-align: right;
 
     .pheader {
-      font-family: 'Bungee Inline', Helvetica, Arial, sans-serif;
-      color:lightslategray;
+      font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      color: darkslategray;
       font-size: 1.8em;      
     }
   
@@ -30,13 +33,13 @@ $mini: 414px;
       padding-top: .4em;
       float: right;
       border-top-right-radius: .2em;
-      font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
-      color:lightslategray;
-      font-size: 1.2em;
-      font-weight: 500;
-      &.about{border-top: 0.06em dotted $blue;}
-      &.dev{border-top: 0.06em dotted $green;}
-      &.contact{border-top: 0.06em dotted $orange;}
+      font-family: 'Barlow', Helvetica, Arial, sans-serif;
+      color:darkslategray;
+      font-size: 1.1em;
+      font-weight: 400;
+      //&.about{border-top: 0.06em dotted $blue;}
+      //&.dev{border-top: 0.06em dotted $green;}
+      //&.contact{border-top: 0.06em dotted $orange;}
     }
   }
   .pimg{
