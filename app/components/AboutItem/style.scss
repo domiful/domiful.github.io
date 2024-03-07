@@ -1,5 +1,5 @@
 $blue: #57A6F8;
-$green:#387C44;
+$green:#404F36;
 $yellow: #EFD565;
 $orange:#E2A148;
 $red:#EE6A64;
@@ -16,21 +16,26 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 2em 0 5em 0;
+  margin: 2em 0 2.5em 0;
+  padding: 0 0 1.5em 0;
+  border-bottom: .1em solid white;
   .pwords{
     width: 40%;
-    //padding:0.3em 1.2em;
+    padding:0.3em 0 0 0;
     text-align: right;
 
     .pheader {
+      padding-right: .1em;
       font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
-      font-weight: 600;
+      font-weight: 500;
+      text-decoration: underline .12em $orange;
       color: darkslategray;
       font-size: 1.8em;      
     }
   
     .pinfo {
       padding-top: .4em;
+      text-align: justify;
       float: right;
       border-top-right-radius: .2em;
       font-family: 'Barlow', Helvetica, Arial, sans-serif;

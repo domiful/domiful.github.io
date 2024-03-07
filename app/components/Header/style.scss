@@ -1,5 +1,5 @@
 $blue: #57A6F8;
-$green:#387C44;
+$green:#404F36;
 $yellow: #EFD565;
 $orange:#E2A148;
 $red:#EE6A64;
@@ -80,13 +80,13 @@ $mini: 414px;
     cursor: pointer;
     outline: 0;
     font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.4em;
+    font-weight: 800;
+    font-size: 1.5em;
     letter-spacing: 0;
     color: darkslategray;
     position: relative;
     &:hover:not(.selected) {
-      color: darkslategray;
+      color: $orange;
       font-size: 1.36em;
       letter-spacing: 0.1em;
       font-family: 'Bungee Outline', Helvetica, Arial, sans-serif;
@@ -183,6 +183,5 @@ $mini: 414px;
 }
 
 #header-border{
-  border-top: 0.15em dotted lightgray;
-  border-radius: 2em;
+  border-top: .2em double lightgray;
 }
