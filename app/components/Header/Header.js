@@ -27,7 +27,6 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
   handleClick(event) {
     if(this.state.isToggleOn){
       document.getElementsByClassName("router-link").forEach(element => {
-        console.log('poop');
         element.style.display = "block";
       });
     }
@@ -63,7 +62,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
     if(head && window.scrollY>50 && window.innerWidth>=414){
       //console.log(window.scrollY);
       head.classList.add("stick");
-      document.getElementById("content").style.marginTop = '10em';
+      document.getElementById("content").style.marginTop = '2em';
     }else if(head && window.scrollY<10 && window.innerWidth>=414){
       head.classList.remove("stick");
       document.getElementById("content").style.marginTop = '0';
@@ -86,16 +85,16 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
           </div>
           <div className="nav-bar" onScroll={(e)=>{this.moveBar(e)}}>
             <div>
-            <Link activeClass="selected"
+            <span className="linkBox"><Link activeClass="selected"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
                 offset={-200}
                 duration={500}
-                className="router-link about"to="about">
+                className="router-link about" to="about">
                 About
-              </Link>
-              <Link activeClass="selected"
+              </Link></span>
+              <span className="linkBox"><Link activeClass="selected"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
@@ -103,16 +102,16 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
                 duration={500}
                 className="router-link dev" to="work">
                 Work
-              </Link>
-              <Link activeClass="selected"
+              </Link></span>
+              <span className="linkBox"><Link activeClass="selected"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-350}
+                offset={0}
                 duration={500}
                 className="router-link contact" to="contact">
                 Contact
-              </Link>
+              </Link></span>
             </div>
           </div>
         </span>
