@@ -16,11 +16,11 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 2em 0 2.5em 0;
+  margin: 2em 0 2.5em 1em;
   padding: 0 0 1.5em 0;
-  border-bottom: .1em solid white;
+  border-bottom: .1em solid #d7d8d9;
   .pwords{
-    width: 40%;
+    width: 45%;
     padding:0.3em 0 0 0;
     text-align: right;
 
@@ -30,7 +30,7 @@ $mini: 414px;
       font-weight: 500;
       text-decoration: underline .12em $orange;
       color: darkslategray;
-      font-size: 1.8em;      
+      font-size: 1.7em;      
     }
   
     .pinfo {
@@ -41,7 +41,8 @@ $mini: 414px;
       font-family: 'Barlow', Helvetica, Arial, sans-serif;
       color:darkslategray;
       font-size: 1.1em;
-      font-weight: 400;
+      line-height: 1.1;
+      font-weight: 300;
       //&.about{border-top: 0.06em dotted $blue;}
       //&.dev{border-top: 0.06em dotted $green;}
       //&.contact{border-top: 0.06em dotted $orange;}
@@ -49,12 +50,12 @@ $mini: 414px;
   }
   .pimg{
     align-items: center;
-    width:60%;
+    width:55%;
     padding-right:1em;
     img{
-      max-width:80%;
+      max-width:75%;
       //height: 100%;
-      max-height: 32em;
+      max-height: 24em;
       border-radius: 6%;
     }
   }
@@ -92,6 +93,7 @@ $mini: 414px;
       }
     }
     .pimg{
+      max-width: 80%;
       display: block;
       width:100%;
       padding: .6em 0;

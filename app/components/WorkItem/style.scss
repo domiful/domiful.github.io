@@ -14,9 +14,9 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 2em 0 2.5em 0;
-  padding: 0 0 1.5em 0;
-  border-bottom: .1em solid white;
+  margin: 2em 0 2.5em 1em;
+  padding: 0 1em 1.5em 0;
+  border-bottom: .1em solid #d7d8d9;
   a{
     text-decoration: none;
   }
@@ -29,7 +29,7 @@ $mini: 414px;
       padding-right: .1em;
       color:darkslategray;
       font-weight: 500;
-      font-size: 2em;
+      font-size: 1.7em;
       &:hover{
         color: $orange;
         font-weight: 800;
@@ -43,8 +43,9 @@ $mini: 414px;
       border-top-right-radius: .2em;
       font-family: 'Barlow', Helvetica, Arial, sans-serif;
       color:darkslategray;
-      font-size: 1.2em;
-      font-weight: 400;
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1.1;
       width: 90%;
       
       //&.about{border-top: 0.06em dotted $blue;}
@@ -58,7 +59,7 @@ $mini: 414px;
     //align-items: right;
     text-align: right;
     width:100%;
-    height:22em;
+    height:18em;
     .img{
       height: 100%;
       margin-right: .8em;

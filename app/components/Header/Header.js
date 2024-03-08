@@ -107,7 +107,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={0}
+                offset={-150}
                 duration={500}
                 className="router-link contact" to="contact">
                 Contact
