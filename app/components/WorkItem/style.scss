@@ -16,7 +16,7 @@ $mini: 414px;
   position: relative;
   margin: 2em 0 2.5em 1em;
   padding: 0 1em 1.5em 0;
-  border-bottom: .1em solid #d7d8d9;
+  border-bottom: .1em solid whitesmoke;
   a{
     text-decoration: none;
   }
@@ -31,8 +31,7 @@ $mini: 414px;
       font-weight: 500;
       font-size: 1.7em;
       &:hover{
-        color: $orange;
-        font-weight: 800;
+        text-decoration: underline .12em solid $orange;
       }
     }
   
@@ -42,8 +41,8 @@ $mini: 414px;
       float: right;
       border-top-right-radius: .2em;
       font-family: 'Barlow', Helvetica, Arial, sans-serif;
-      color:darkslategray;
-      font-size: 1.1em;
+      color:black;
+      font-size: 1em;
       font-weight: 300;
       line-height: 1.1;
       width: 90%;

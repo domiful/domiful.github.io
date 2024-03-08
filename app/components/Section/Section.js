@@ -15,7 +15,7 @@ const Section = (props) => (
   
   <div>
     <div className="section">
-    <Element name="about">
+    <Element name="about" className="aboutSection">
     <div className="title-wrapper">
         <div className="title about">{props.title}</div>
         <div className="desc about">“I have no special talent. I am only passionately curious.” - Albert Einstein</div>
@@ -69,7 +69,7 @@ const Section = (props) => (
 
     </div>
     <div className="section">
-    <Element name="contact">
+    <Element name="contact" className="contactSection">
 
       <div className="title-wrapper">
         <div className="title contact">Contact Me</div>

@@ -16,9 +16,11 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 2em 0 2.5em 1em;
+  margin: 1em 0 2.5em 1.2em;
   padding: 0 0 1.5em 0;
   border-bottom: .1em solid #d7d8d9;
+  //background-color: #d7d8d9;
+
   .pwords{
     width: 45%;
     padding:0.3em 0 0 0;
@@ -28,8 +30,8 @@ $mini: 414px;
       padding-right: .1em;
       font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
       font-weight: 600;
-      //text-decoration: underline .12em $orange;
-      color: darkslategray;
+     // text-decoration: underline $green ;
+      color: $orange;
       font-size: 1.4em;      
     }
   
@@ -39,8 +41,8 @@ $mini: 414px;
       float: right;
       border-top-right-radius: .2em;
       font-family: 'Barlow', Helvetica, Arial, sans-serif;
-      color:darkslategray;
-      font-size: 1.1em;
+      color:black;
+      font-size: 1em;
       line-height: 1.1;
       font-weight: 300;
       //&.about{border-top: 0.06em dotted $blue;}
