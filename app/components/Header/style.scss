@@ -20,7 +20,7 @@ $mini: 414px;
       position: fixed;
       top: 0;
       width: 48em;
-      height:5.2rem;
+      height:4.5rem;
       background-color: whitesmoke;
       z-index: 2;
       border-bottom: 1px solid slategray;
@@ -31,8 +31,9 @@ $mini: 414px;
       }
       img{
         margin-top:-1em;
-        width: 9em;
-        padding-left: 1.5em;
+        height: 3em;
+        //width: 9em;
+        padding-left: .6em;
       }
       .nav-bar{
         position: relative;
@@ -59,7 +60,8 @@ $mini: 414px;
   
 
   img {
-    width: 8em;
+    height: 3em;
+    padding-left: .5em;
     //margin: 0 auto;
     //display: block;
   }
