@@ -91,16 +91,15 @@ $mini: 414px;
     cursor: pointer;
     outline: 0;
     font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
-    font-weight: 800;
     font-size: 1.5em;
     letter-spacing: 0;
     color: darkslategray;
     position: relative;
     &:hover:not(.selected) {
       color: $orange;
-      font-size: 1.36em;
+      //font-size: 1.36em;
       letter-spacing: 0.1em;
-      font-family: 'Bungee Outline', Helvetica, Arial, sans-serif;
+      font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
       transition: font-size .2s ease, font-family .2s ease;
     }
 

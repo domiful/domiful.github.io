@@ -31,7 +31,9 @@ $mini: 414px;
       font-weight: 500;
       font-size: 1.7em;
       &:hover{
-        text-decoration: underline .12em solid $orange;
+        //text-decoration: underline .12em solid $orange;
+        font-weight: 700;
+        color: $orange;
       }
     }
   
