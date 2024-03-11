@@ -20,7 +20,7 @@ $mini: 414px;
       position: fixed;
       top: 0;
       width: 48em;
-      height:4.5rem;
+      height:4rem;
       background-color: whitesmoke;
       z-index: 2;
       border-bottom: 1px solid slategray;
@@ -30,7 +30,7 @@ $mini: 414px;
         //height: 4rem;
       }
       img{
-        margin-top:-1em;
+        margin-top:-2em;
         height: 3em;
         //width: 9em;
         padding-left: .6em;
@@ -91,14 +91,14 @@ $mini: 414px;
     cursor: pointer;
     outline: 0;
     font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
+    font-weight: 800;
     font-size: 1.5em;
     letter-spacing: 0;
     color: darkslategray;
     position: relative;
     &:hover:not(.selected) {
       color: $orange;
-      //font-size: 1.36em;
-      letter-spacing: 0.1em;
+      //letter-spacing: 0.1em;
       font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
       transition: font-size .2s ease, font-family .2s ease;
     }
