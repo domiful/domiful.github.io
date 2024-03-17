@@ -1,0 +1,52 @@
+{
+    "work":[
+        {
+            "title":"Oracle Cloud Infrastructure",
+            "link":"https://www.oracle.com/cloud/",
+            "info":"",
+            "images":["",""]
+        },
+        {
+            "title":"Kinvey",
+            "link":"https://devcenter.kinvey.com/rest/guides/core-overview",
+            "info":"",
+            "images":["",""]
+        },
+        {
+            "title":"Sitefinity",
+            "link":"https://www.progress.com/sitefinity-cms",
+            "info":"",
+            "images":["",""]
+        },
+        {
+            "title":"My Article",
+            "link":"https://release.nl/2409012/dom-raymond.html",
+            "info":"",
+            "images":["",""]
+        },
+        {
+            "title":"Cross Platform Integration",
+            "link":"",
+            "info":"",
+            "images":["",""]
+        },
+        {
+            "title":"Technical Evangelism",
+            "link":"",
+            "info":"",
+            "images":["",""]
+        },
+        {
+            "title":"Snowflake",
+            "link":"https://www.snowflake.com/en/",
+            "info":"",
+            "images":["",""]
+        },
+        {
+            "title":"Looker",
+            "link":"https://cloud.google.com/looker",
+            "info":"",
+            "images":["",""]
+        }
+    ]
+}
