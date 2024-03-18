@@ -12,17 +12,15 @@ $midi: 768px;
 $mini: 414px;
 
 .list-item-wrapper {
-  //width: 100%;
   display: flex;
   flex-flow: row wrap;
   position: relative;
   margin: 1em 0 2.5em 1.2em;
   padding: 0 0 1.5em 0;
   border-bottom: .1em solid #d7d8d9;
-  //background-color: #d7d8d9;
 
   .pwords{
-    width: 45%;
+    width: 48%;
     padding:0.3em 0 0 0;
     text-align: left;
 
@@ -51,11 +49,10 @@ $mini: 414px;
     }
   }
   .pimg{
-    align-items: center;
-    width:55%;
+    width:50%;
     padding-right:1em;
     img{
-      max-width:75%;
+      max-width:90%;
       //height: 100%;
       max-height: 24em;
       border-radius: 6%;
@@ -87,18 +84,16 @@ $mini: 414px;
       .pheader, .pinfo {
         display: block;
       }
-      .pheader{
-        text-align: right;
-      }
+
       .pinfo{
         float:right;
       }
     }
     .pimg{
-      max-width: 80%;
+      max-width: 100%;
       display: block;
       width:100%;
-      padding: .6em 0;
+      text-align: center;
     }
   }
 

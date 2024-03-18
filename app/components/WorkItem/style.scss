@@ -30,7 +30,7 @@ $mini: 414px;
       width: 50%;
       color:darkslategray;
       font-weight: 500;
-      font-size: 1.6em;
+      font-size: 1.5em;
       &:hover{
         //text-decoration: underline .12em solid $orange;
         font-weight: 700;
@@ -73,6 +73,7 @@ $mini: 414px;
   }
 
   @media only screen and (max-width: $mini) {
+    padding: 0;
     .pwords{
       width: 100%;
       display: block;
@@ -97,6 +98,7 @@ $mini: 414px;
 
   @media only screen and (max-width: $midi) {
     text-align: right;
+    padding: 0;
 
     .pwords{
       width: 100%;
@@ -104,12 +106,6 @@ $mini: 414px;
       padding:0;
       .pheader, .pinfo {
         display: block;
-      }
-      .pheader{
-        text-align: right;
-      }
-      .pinfo{
-        float:right;
       }
     }
     .pimg{
