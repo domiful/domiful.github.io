@@ -27,7 +27,7 @@ const AboutItem = (props) => (
     </span>
     <span className="pwords">
       <div className="pheader">{props.title}</div>
-      <div className="pinfo about">{props.info}</div>
+      <div className="pinfo about" dangerouslySetInnerHTML={{__html: props.info}}></div>
     </span>
     
   </div>

@@ -29,7 +29,7 @@ const WorkItem = (props) => (
     </span>
     <span className="pwords">
       {props.link ?<a href={props.link} target="_blank"><div className="pheader">{props.title}</div></a> : <div className="pheader">{props.title}</div>}
-      <div className="pinfo dev">{props.info}</div>
+      <div className="pinfo dev" dangerouslySetInnerHTML={{__html: props.info}}></div>
     </span>
     
   </div>
