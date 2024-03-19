@@ -7,7 +7,7 @@
     "node": ">=5"
   },
   "author": "Dom Raymond",
-  "homepage": "https://domiful.gihtub.io/domiful.github.io",
+  "homepage": "https://domiful.github.io/domiful.github.io",
   "scripts": {
     "prebuild": "npm run build:clean",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.babel.js --color -p --progress --hide-modules --display-optimization-bailout",
