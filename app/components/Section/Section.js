@@ -24,7 +24,7 @@ const Section = (props) => (
         <AboutItem title="Philosophy" info="I actually don’t really believe in having a philosophy. It constrains your thinking and can be detrimental to any process. Everything cannot be minimal, but everything should be understandable. <br /><br />I guess that might be a philosophy." section={props.section} imgs={[phil]}/>
         <AboutItem title="Bio" info="I currently live in New York City. <br /><br />Columbia Business School MBA and experienced software engineer passionate about new technologies, user experience design and implementation, and cloud solutions. Skilled in native and web digital experience creation, cloud transformation, and technical marketing." section={props.section} imgs={[prof]}/>
         <Element name="resume">
-          <AboutItem title="Resum&eacute;" info="You shouldn't leave empty handed, please take a copy of my resume. <br /><br />Also feel free to drop me an email or DM on LinkedIn!" section={props.section} imgs={[res]} link="https://drive.google.com/file/d/1AxtisSbKPF0pSYjFWTf3UFumsy4ucVxa/view?usp=sharing"/>
+          <AboutItem title="Resum&eacute;" info="You shouldn't leave empty handed, please take a copy of my resume. <br /><br />Also feel free to drop me an email or DM on LinkedIn!" section={props.section} imgs={[res]} link="https://www.dropbox.com/scl/fi/4thkhj1w14s0hkbi1ydyp/resume24b.pdf?rlkey=cbq870e9xlvsxr1qs97xktr5w&dl=0"/>
         </Element>
       </span>
     </Element>
