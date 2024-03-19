@@ -7,14 +7,14 @@ $purple:#A770C1;
 $pink: #F2A7DD;
 
 $midi: 768px;
-$mini: 414px;
+$mini: 540px;
 
 
 
 .header {
   padding: 2em .5em .5em .5em;
   position: relative;
-  @media only screen and (min-width: 415px) {
+  
     &.stick{
       /* The sticky class is added to the navbar with JS when it reaches its scroll position */
       position: fixed;
@@ -44,18 +44,20 @@ $mini: 414px;
       }
       @media only screen and (max-width: $midi){
           width: 100%;
+          margin-left: -1em;
+          padding-left: 1.5rem;
           height: 4rem;
           img{
             width: 6em;
           }
           .nav-bar{
-            position: relative;
-            bottom: 2em;
+            position: fixed;
+            top: 1.5em;
             width: 20em;
-            left: 8em
+            left: auto;
           }
       }
-    }
+    
   }
   
 
@@ -123,7 +125,7 @@ $mini: 414px;
     }
   }
 
-  @media only screen and (max-width: $mini) {
+  @media only screen and (max-width: 540) {
     position: fixed;
     top: 0;
     left: 0;

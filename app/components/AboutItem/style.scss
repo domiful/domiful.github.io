@@ -86,7 +86,7 @@ $mini: 414px;
       }
 
       .pinfo{
-        float:right;
+        width: 100%;
       }
     }
     .pimg{
@@ -94,6 +94,7 @@ $mini: 414px;
       display: block;
       width:100%;
       text-align: center;
+      padding:1em 6em;
     }
   }
 
