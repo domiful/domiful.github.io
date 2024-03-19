@@ -1,19 +1,19 @@
 {
   "name": "dom_site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My personal site.",
   "engines": {
     "npm": ">=3",
     "node": ">=5"
   },
   "author": "Dom Raymond",
-  "homepage": "http://domiful.gihtub.io/domiful.github.io",
+  "homepage": "https://domiful.gihtub.io/domiful.github.io",
   "scripts": {
     "prebuild": "npm run build:clean",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.babel.js --color -p --progress --hide-modules --display-optimization-bailout",
     "build:clean": "rimraf ./build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "cross-env NODE_ENV=development node server",
     "start:production": "npm run test && npm run build && npm run start:prod",
     "start:prod": "cross-env NODE_ENV=production node server",
