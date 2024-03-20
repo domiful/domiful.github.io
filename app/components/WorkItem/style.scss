@@ -72,15 +72,16 @@ $mini: 414px;
     }
   }
 
-  @media only screen and (max-width: $mini) {
+  @media only screen and (max-width: $midi) {
+    //text-align: right;
     padding: 0;
+
     .pwords{
       width: 100%;
       display: block;
       padding:0;
       .pheader, .pinfo {
-        float: right;
-        text-align: right;
+        display: block;
       }
     }
     .pimg{
@@ -96,16 +97,15 @@ $mini: 414px;
     }
   }
 
-  @media only screen and (max-width: $midi) {
-    text-align: right;
+  @media only screen and (max-width: $mini) {
     padding: 0;
-
     .pwords{
       width: 100%;
       display: block;
       padding:0;
       .pheader, .pinfo {
-        display: block;
+        //float: right;
+        //text-align: right;
       }
     }
     .pimg{

@@ -7,7 +7,7 @@ $purple:#A770C1;
 $pink: #F2A7DD;
 
 $midi: 768px;
-$mini: 540px;
+$mini: 414px;
 
 
 
@@ -125,7 +125,8 @@ $mini: 540px;
     }
   }
 
-  @media only screen and (max-width: 540) {
+  @media only screen and (max-width: $mini) {
+    border-bottom: 1px solid slategray;
     position: fixed;
     top: 0;
     left: 0;
@@ -135,8 +136,9 @@ $mini: 540px;
     z-index: 2;
     width: 100%;
     img {
-      width: 6em;
-      margin: 0 auto;
+      //width: 6em;
+      height: 2.5em;
+      margin: .5em auto;
       //display: block;
     }
     .arrow {
@@ -156,17 +158,19 @@ $mini: 540px;
       
     }
     .nav-bar{
-      margin-right:-.5em;
+      margin-right:-2em;
       padding: 2.4em 2em 0em 2em;
       width: 60%;
       height: 100%;
         
       white-space: nowrap;
       overflow-x: scroll;
-        .router-link{
-          margin-top: -1em;
-          &.selected{
-          }
+      .router-link{
+        margin: -.5em 0;
+        font-size: 1.2em;
+        &.selected{
+        
+        }
       }
 
       @keyframes slide1 {
@@ -176,7 +180,7 @@ $mini: 540px;
         }
       
         50% {
-          transform: translate(1em, 0);
+          transform: translate(.3em, 0);
         }
       }
     }

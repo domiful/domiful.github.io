@@ -59,22 +59,6 @@ $mini: 414px;
     }
   }
 
-  @media only screen and (max-width: $mini) {
-    .pwords{
-      width: 100%;
-      display: block;
-      padding:0;
-      .pheader, .pinfo {
-        float: right;
-        text-align: right;
-      }
-    }
-    .pimg{
-      display: block;
-      width:100%;
-      padding: .6em 0;
-    }
-  }
 
   @media only screen and (max-width: $midi) {
     .pwords{
@@ -95,6 +79,21 @@ $mini: 414px;
       width:100%;
       text-align: center;
       padding:1em 6em;
+    }
+  }
+
+  @media only screen and (max-width: $mini) {
+    .pwords{
+      width: 100%;
+      display: block;
+      padding:0;
+
+    }
+    .pimg{
+      display: block;
+      width:100%;
+      padding: 0;
+      margin-bottom: 1em;
     }
   }
 

@@ -80,8 +80,6 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
         <span>
           <div className="arrow end">
               <img className="aimg" src={arrow} alt="simple logo" />
-              <img className="aimg" src={arrow} alt="simple logo" />
-              <img className="aimg" src={arrow} alt="simple logo" />
           </div>
           <div className="nav-bar" onScroll={(e)=>{this.moveBar(e)}}>
             <div>

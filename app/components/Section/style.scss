@@ -69,6 +69,11 @@ $mini: 414px;
   .litems{
     overflow-x: hidden;
   }
+  @media only screen and (max-width: $mini) {
+    .minititle{
+      margin: 0 .6em;
+    }
+  }
 
   
 }
