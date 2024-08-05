@@ -21,7 +21,19 @@ $mini: 414px;
   //border: .2em solid #d7d8d9;
   //background-color: #d7d8d9;
   //border-radius: 1em;
-
+  .catArea {
+    background-color: lightslategray;
+    border-radius: 3%;
+    margin-top: 2em;
+    .list-item-wrapper {
+      border: none;
+      padding: 2em 0;
+      .pinfo {
+        color: whitesmoke;
+        font-weight: 400;
+      }
+    }
+  }
   //}
   .title-wrapper {
     width: 100%;

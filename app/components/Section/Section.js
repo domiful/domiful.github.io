@@ -55,13 +55,15 @@ const Section = (props) => (
             section={props.section}
             imgs={[phil]}
           />
-          <AboutItem
-            title="What I Can Do for You"
-            wide={true}
-            imgs={[catSof, catSol, catDa, catCo]}
-            info="I currently live in New York City. <br /><br /> Columbia Business School MBA and experienced software engineer passionate about new technologies, user experience design and implementation, and cloud solutions. Skilled in native and web digital experience creation, cloud transformation, and technical marketing."
-            section={props.section}
-          />
+          <div className="catArea">
+            <AboutItem
+              title="What I Can Do for You"
+              wide={true}
+              imgs={[catSof, catSol, catDa, catCo]}
+              info="I currently live in New York City. <br /><br /> Columbia Business School MBA and experienced software engineer passionate about new technologies, user experience design and implementation, and cloud solutions. Skilled in native and web digital experience creation, cloud transformation, and technical marketing."
+              section={props.section}
+            />
+          </div>
         </span>
       </Element>
     </div>

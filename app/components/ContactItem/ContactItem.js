@@ -26,7 +26,7 @@ const ContactItem = (props) => (
 
       <a
         className="resume"
-        href="https://drive.google.com/file/d/1AxtisSbKPF0pSYjFWTf3UFumsy4ucVxa/view?usp=sharing"
+        href="https://www.dropbox.com/scl/fi/4thkhj1w14s0hkbi1ydyp/resume24b.pdf?rlkey=cbq870e9xlvsxr1qs97xktr5w&dl=0"
         target="_blank"
       >
         <img src={res} alt="You shouldn't leave empty handed, so here ya go!" />

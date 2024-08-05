@@ -1,7 +1,7 @@
 $blue: #57a6f8;
 $green: #404f36;
 $yellow: #efd565;
-$orange: #fe9400d6;
+$orange: #fe9400;
 $red: #ee6a64;
 $purple: #a770c1;
 $pink: #f2a7dd;
@@ -13,8 +13,8 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 1em 0 2.5em 1.2em;
-  padding: 0 0 1.5em 0;
+  //margin: 1em 0 2.5em 1.2em;
+  padding: 2.5em 0 2.5em 1.2em;
   border-bottom: 0.1em solid #d7d8d9;
   .categories {
     display: flex;
@@ -23,29 +23,32 @@ $mini: 414px;
     text-align: center;
     width: 100%;
     padding: 0 2em;
-    margin: 2em 0;
+    margin: 2em 0 0 0;
+
     .cat {
       display: block;
       text-align: center;
-      padding: 1 2em;
+      padding: 0;
       width: 25%;
       height: 14em;
       border-radius: 3%;
       &:hover {
-        background-color: $green;
+        background-color: lightgray;
         opacity: 0.8;
         img {
           opacity: 1;
-          filter: grayscale(100%) brightness(4);
+          //filter: grayscale(100%) brightness(4);
+          filter: saturate(1) brightness(1);
         }
         .title {
-          font-weight: 500;
-          color: white;
+          //font-weight: 500;
+          color: $green;
         }
       }
       img {
-        opacity: 0.8;
-        filter: brightness(1.1);
+        opacity: 0.9;
+        filter: saturate(0.2) brightness(2);
+
         width: 75%;
         padding: 1em 0 1em;
         display: inline-block;
@@ -55,7 +58,7 @@ $mini: 414px;
         width: 66%;
         font-family: "Rajdhani", Helvetica, Arial, sans-serif;
         //padding-left: 2em;
-        color: slategray;
+        color: whitesmoke;
         font-weight: 600;
         font-size: 1.2em;
         line-height: 0.9;
@@ -72,7 +75,7 @@ $mini: 414px;
       width: 98%;
       .pheader {
         font-size: 1.8em;
-        color: $orange;
+        color: rgb(255, 146, 29);
       }
     }
 
