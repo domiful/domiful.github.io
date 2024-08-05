@@ -289,17 +289,7 @@ const Section = (props) => (
           <div className="desc contact">
             Feel free to drop me an email (even just to tell me about a bug) or
             connect with me on LinkedIn. I will respond as soon as possible. Oh
-            and don't forget to take a&nbsp;
-            <Link
-              style={{ textDecoration: "underline", cursor: "pointer" }}
-              smooth
-              offset={-150}
-              duration={500}
-              to="resume"
-            >
-              resum&eacute;
-            </Link>
-            !
+            and don't forget to take a resum&eacute;!
           </div>
         </div>
         <span className="litems">
@@ -307,15 +297,6 @@ const Section = (props) => (
             title="Contact"
             info="This is where info is going fmi."
           />
-          <Element name="resume">
-            <AboutItem
-              title="Resum&eacute;"
-              info="You shouldn't leave empty handed, so here ya go!"
-              section={props.section}
-              imgs={[res]}
-              link="https://drive.google.com/file/d/1AxtisSbKPF0pSYjFWTf3UFumsy4ucVxa/view?usp=sharing"
-            />
-          </Element>
         </span>
       </Element>
     </div>

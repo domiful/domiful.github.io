@@ -51,6 +51,11 @@ $mini: 414px;
       padding: 0 1em;
       width: 7em;
     }
+    .resume {
+      img {
+        width: 15em;
+      }
+    }
   }
 
   @media only screen and (max-width: $mini) {
