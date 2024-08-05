@@ -6,7 +6,7 @@
 	•	Yellow
 	⁃	#EFD565
 	•	Orange
-	⁃	#E2A148
+	⁃	#fe9400
 	•	Red
 	⁃	#EE6A64
 	•	Purple

@@ -1,12 +1,10 @@
-$blue: #57A6F8;
-$green:#404F36;
-$yellow: #EFD565;
-$orange:#E2A148;
-$red:#EE6A64;
-$purple:#A770C1;
-$pink: #F2A7DD;
-
-
+$blue: #57a6f8;
+$green: #404f36;
+$yellow: #efd565;
+$orange: #fe9400;
+$red: #ee6a64;
+$purple: #a770c1;
+$pink: #f2a7dd;
 
 $midi: 768px;
 $mini: 414px;
@@ -18,29 +16,29 @@ $mini: 414px;
   display: inline-block;
   flex-flow: row wrap;
   position: relative;
- // .aboutSection, .contactSection{
-    padding: 1em 1.5em 0 0;
-    //border: .2em solid #d7d8d9;
-    //background-color: #d7d8d9;
-    //border-radius: 1em;
+  // .aboutSection, .contactSection{
+  padding: 1em 1.5em 0 0;
+  //border: .2em solid #d7d8d9;
+  //background-color: #d7d8d9;
+  //border-radius: 1em;
 
   //}
-  .title-wrapper{
+  .title-wrapper {
     width: 100%;
     display: inline-block;
     padding-bottom: 1em;
     .title {
-      font-family: 'Bungee Shade', Helvetica, Arial, sans-serif;
+      font-family: "Bungee Shade", Helvetica, Arial, sans-serif;
       font-size: 2.5em;
       font-weight: 400;
       text-align: right;
       color: $green;
     }
-    .desc{
-      padding: 0 0 .5em 0;
-      font-family: 'Barlow', Helvetica, Arial, sans-serif;
+    .desc {
+      padding: 0 0 0.5em 0;
+      font-family: "Barlow", Helvetica, Arial, sans-serif;
       font-size: 1em;
-      color:darkslategray;
+      color: darkslategray;
       font-weight: 400;
       line-height: 1.2;
       text-align: right;
@@ -49,31 +47,28 @@ $mini: 414px;
     }
 
     //.title, .desc {
-      //&.about{color:$blue;}
-      //&.dev{color:$green;}
-      //&.contact{color:$orange;}
-   // }
+    //&.about{color:$blue;}
+    //&.dev{color:$green;}
+    //&.contact{color:$orange;}
+    // }
   }
 
   .minititle {
     display: block;
-    font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
+    font-family: "Rajdhani", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    color:$green;
+    color: $green;
     font-size: 1.5em;
     text-align: left;
-    margin: 0 0 -.5em 2em;
-
+    margin: 0 0 -0.5em 2em;
   }
 
-  .litems{
+  .litems {
     overflow-x: hidden;
   }
   @media only screen and (max-width: $mini) {
-    .minititle{
-      margin: 0 .6em;
+    .minititle {
+      margin: 0 0.6em;
     }
   }
-
-  
 }

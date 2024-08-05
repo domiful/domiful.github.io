@@ -1,12 +1,10 @@
-$blue: #57A6F8;
-$green:#404F36;
-$yellow: #EFD565;
-$orange:#E2A148;
-$red:#EE6A64;
-$purple:#A770C1;
-$pink: #F2A7DD;
-
-
+$blue: #57a6f8;
+$green: #404f36;
+$yellow: #efd565;
+$orange: #fe9400d6;
+$red: #ee6a64;
+$purple: #a770c1;
+$pink: #f2a7dd;
 
 $midi: 768px;
 $mini: 414px;
@@ -17,29 +15,83 @@ $mini: 414px;
   position: relative;
   margin: 1em 0 2.5em 1.2em;
   padding: 0 0 1.5em 0;
-  border-bottom: .1em solid #d7d8d9;
-
-  .pwords{
+  border-bottom: 0.1em solid #d7d8d9;
+  .categories {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 0 2em;
+    margin: 2em 0;
+    .cat {
+      display: block;
+      text-align: center;
+      padding: 1 2em;
+      width: 25%;
+      height: 14em;
+      border-radius: 3%;
+      &:hover {
+        background-color: $green;
+        opacity: 0.8;
+        img {
+          opacity: 1;
+          filter: grayscale(100%) brightness(4);
+        }
+        .title {
+          font-weight: 500;
+          color: white;
+        }
+      }
+      img {
+        opacity: 0.8;
+        filter: brightness(1.1);
+        width: 75%;
+        padding: 1em 0 1em;
+        display: inline-block;
+      }
+      .title {
+        display: inline-block;
+        width: 66%;
+        font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+        //padding-left: 2em;
+        color: slategray;
+        font-weight: 600;
+        font-size: 1.2em;
+        line-height: 0.9;
+      }
+    }
+  }
+  .pwords {
     width: 48%;
-    padding:0.3em 0 0 0;
+    padding: 0.3em 0 0 0;
     text-align: left;
 
-    .pheader {
-      padding-right: .1em;
-      font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
-      font-weight: 600;
-     // text-decoration: underline $green ;
-      color: $green;
-      font-size: 1.4em;      
+    &.wide {
+      padding: 0 2em;
+      width: 98%;
+      .pheader {
+        font-size: 1.8em;
+        color: $orange;
+      }
     }
-  
+
+    .pheader {
+      padding-right: 0.1em;
+      font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      // text-decoration: underline $green ;
+      color: $green;
+      font-size: 1.4em;
+    }
+
     .pinfo {
-      padding-top: .4em;
+      padding-top: 0.4em;
       text-align: justify;
       float: right;
-      border-top-right-radius: .2em;
-      font-family: 'Barlow', Helvetica, Arial, sans-serif;
-      color:black;
+      border-top-right-radius: 0.2em;
+      font-family: "Barlow", Helvetica, Arial, sans-serif;
+      color: black;
       font-size: 1em;
       line-height: 1.1;
       font-weight: 300;
@@ -48,54 +100,64 @@ $mini: 414px;
       //&.contact{border-top: 0.06em dotted $orange;}
     }
   }
-  .pimg{
-    width:50%;
-    padding-right:1em;
-    img{
-      max-width:90%;
+  .pimg {
+    width: 50%;
+    padding-right: 1em;
+    img {
+      max-width: 90%;
       //height: 100%;
       max-height: 24em;
       border-radius: 6%;
     }
   }
 
-
   @media only screen and (max-width: $midi) {
-    .pwords{
+    .categories {
+      padding: 0 1em;
+      .cat {
+        height: 11em;
+        width: 50%;
+        .title {
+          width: 100%;
+        }
+      }
+    }
+    .pwords {
+      &.wide {
+        padding: 0;
+      }
       width: 100%;
       display: block;
-      padding:0;
-      .pheader, .pinfo {
+      padding: 0;
+      .pheader,
+      .pinfo {
         display: block;
       }
 
-      .pinfo{
+      .pinfo {
         width: 100%;
       }
     }
-    .pimg{
+    .pimg {
       max-width: 100%;
       display: block;
-      width:100%;
+      width: 100%;
       text-align: center;
-      padding:1em 6em;
+      padding: 1em 6em;
     }
   }
 
   @media only screen and (max-width: $mini) {
-    .pwords{
+    .pwords {
       width: 100%;
       display: block;
-      padding:0;
-
+      padding: 0;
     }
-    .pimg{
+    .pimg {
       display: block;
-      width:100%;
+      width: 100%;
       padding: 0;
       margin-bottom: 1em;
     }
   }
-
-  
 }

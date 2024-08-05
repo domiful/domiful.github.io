@@ -1,10 +1,10 @@
-$blue: #57A6F8;
-$green:#404F36;
-$yellow: #EFD565;
-$orange:#E2A148;
-$red:#EE6A64;
-$purple:#A770C1;
-$pink: #F2A7DD;
+$blue: #57a6f8;
+$green: #404f36;
+$yellow: #efd565;
+$orange: #fe9400;
+$red: #ee6a64;
+$purple: #a770c1;
+$pink: #f2a7dd;
 
 $midi: 768px;
 $mini: 414px;
@@ -15,76 +15,82 @@ $mini: 414px;
   flex-flow: row wrap;
   position: relative;
   margin: 2em 0;
-  .pwords{
+  .pwords {
     width: 40%;
-    padding:0.3em 1.2em;
+    padding: 0.3em 1.2em;
     text-align: right;
 
     .pheader {
-      font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
-      color:white;
-      font-size: 1.8em;      
+      font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+      color: white;
+      font-size: 1.8em;
     }
-  
+
     .pinfo {
       float: right;
-      border-top-right-radius: .2em;
-      font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
-      color:white;
+      border-top-right-radius: 0.2em;
+      font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+      color: white;
       font-size: 1.2em;
       font-weight: 500;
-      &.about{border-top: 0.06em dotted $blue;}
-      &.dev{border-top: 0.06em dotted $green;}
-      &.contact{border-top: 0.06em dotted $orange;}
+      &.about {
+        border-top: 0.06em dotted $blue;
+      }
+      &.dev {
+        border-top: 0.06em dotted $green;
+      }
+      &.contact {
+        border-top: 0.06em dotted $orange;
+      }
     }
   }
-  .pimg{
-    width:100%;
+  .pimg {
+    width: 100%;
     text-align: right;
-    img{
+    img {
       padding: 0 1em;
       width: 7em;
     }
   }
 
   @media only screen and (max-width: $mini) {
-    .pwords{
+    .pwords {
       width: 100%;
       display: block;
-      padding:0;
-      .pheader, .pinfo {
+      padding: 0;
+      .pheader,
+      .pinfo {
         float: left;
         text-align: left;
       }
     }
-    .pimg{
+    .pimg {
       display: block;
-      width:100%;
-      padding: .6em 0;
+      width: 100%;
+      padding: 0.6em 0;
     }
   }
 
   @media only screen and (max-width: $midi) {
-    .pwords{
+    .pwords {
       width: 100%;
       display: block;
-      padding:0;
-      .pheader, .pinfo {
+      padding: 0;
+      .pheader,
+      .pinfo {
         display: block;
       }
-      .pheader{
+      .pheader {
         text-align: left;
       }
-      .pinfo{
-        float:left;
+      .pinfo {
+        float: left;
       }
     }
-    .pimg{
+    .pimg {
       display: block;
-      width:100%;
-      padding: .6em 0;
+      width: 100%;
+      padding: 0.6em 0;
     }
   }
-
-  
 }

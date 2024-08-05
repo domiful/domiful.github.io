@@ -1,98 +1,95 @@
-$blue: #57A6F8;
-$green:#404F36;
-$yellow: #EFD565;
-$orange:#E2A148;
-$red:#EE6A64;
-$purple:#A770C1;
-$pink: #F2A7DD;
+$blue: #57a6f8;
+$green: #404f36;
+$yellow: #efd565;
+$orange: #fe9400;
+$red: #ee6a64;
+$purple: #a770c1;
+$pink: #f2a7dd;
 
 $midi: 768px;
 $mini: 414px;
 
-
-
 .header {
-  padding: 2em .5em .5em .5em;
+  padding: 2em 0.5em 0.5em 0.5em;
   position: relative;
-  
-    &.stick{
-      /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-      position: fixed;
-      top: 0;
-      width: 48em;
-      height:4rem;
-      background-color: whitesmoke;
-      z-index: 2;
-      border-bottom: 1px solid slategray;
-      img, .nav-bar {
-        position: relative;
-        //top: 2;
-        //height: 4rem;
-      }
-      img{
-        margin-top:-2em;
-        height: 3em;
-        //width: 9em;
-        padding-left: .6em;
-      }
-      .nav-bar{
-        position: relative;
-        bottom: 2em;
-        width: 20em;
-        left: 25em
 
+  &.stick {
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    position: fixed;
+    top: 0;
+    width: 48em;
+    height: 4rem;
+    background-color: whitesmoke;
+    z-index: 2;
+    border-bottom: 1px solid slategray;
+    img,
+    .nav-bar {
+      position: relative;
+      //top: 2;
+      //height: 4rem;
+    }
+    img {
+      margin-top: -2em;
+      height: 3em;
+      //width: 9em;
+      padding-left: 0.6em;
+    }
+    .nav-bar {
+      position: relative;
+      bottom: 2em;
+      width: 20em;
+      left: 25em;
+    }
+    @media only screen and (max-width: $midi) {
+      width: 100%;
+      margin-left: -1em;
+      padding-left: 1.5rem;
+      height: 4rem;
+      img {
+        width: 6em;
       }
-      @media only screen and (max-width: $midi){
-          width: 100%;
-          margin-left: -1em;
-          padding-left: 1.5rem;
-          height: 4rem;
-          img{
-            width: 6em;
-          }
-          .nav-bar{
-            position: fixed;
-            top: 1.5em;
-            width: 20em;
-            left: auto;
-          }
+      .nav-bar {
+        position: fixed;
+        top: 1.5em;
+        width: 20em;
+        left: auto;
       }
-    
+    }
   }
-  
 
   img {
     height: 3em;
-    padding-left: .5em;
+    padding-left: 0.5em;
     //margin: 0 auto;
     //display: block;
   }
-  .arrow{display: none;}
+  .arrow {
+    display: none;
+  }
   .nav-bar {
     text-align: right;
     position: absolute;
-    bottom: -.3em;
+    bottom: -0.3em;
     right: 2.6em;
     transition: color 0.25s;
 
-    .linkBox{
+    .linkBox {
       display: inline-block;
       width: 6em;
     }
   }
-  
 
   .router-link {
     display: inline-flex;
-    margin:0 0 0.25em .2em;
-    padding: 0 .2em;
+    margin: 0 0 0.25em 0.2em;
+    padding: 0 0.2em;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
     -webkit-touch-callout: none;
     user-select: none;
     cursor: pointer;
     outline: 0;
-    font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
+    font-family: "Bungee Hairline", Helvetica, Arial, sans-serif;
     font-weight: 800;
     font-size: 1.5em;
     letter-spacing: 0;
@@ -101,27 +98,27 @@ $mini: 414px;
     &:hover:not(.selected) {
       color: $orange;
       //letter-spacing: 0.1em;
-      font-family: 'Bungee Hairline', Helvetica, Arial, sans-serif;
-      transition: font-size .2s ease, font-family .2s ease;
+      font-family: "Bungee Hairline", Helvetica, Arial, sans-serif;
+      transition: font-size 0.2s ease, font-family 0.2s ease;
     }
 
     &:active {
-      color:$green;
+      color: $green;
       //&.about{color:$blue;}
       //&.dev{color:$green;}
       //&.contact{color:$orange;}
-      padding: 0 0.1em .1em 0.1em;
+      padding: 0 0.1em 0.1em 0.1em;
       font-size: 1.36em;
       letter-spacing: 0;
-      font-family: 'Bungee Shade', Helvetica, Arial, sans-serif;
-      transition: padding .2s ease, font-family .2s ease;
+      font-family: "Bungee Shade", Helvetica, Arial, sans-serif;
+      transition: padding 0.2s ease, font-family 0.2s ease;
     }
 
     &.selected {
       color: $green;
       padding: 0.2em 0.1em;
       font-size: 1.36em;
-      font-family: 'Bungee Shade', Helvetica, Arial, sans-serif;
+      font-family: "Bungee Shade", Helvetica, Arial, sans-serif;
     }
   }
 
@@ -138,41 +135,39 @@ $mini: 414px;
     img {
       //width: 6em;
       height: 2em;
-      margin: .5em auto;
+      margin: 0.5em auto;
       //display: block;
     }
     .arrow {
       display: block;
       position: absolute;
-      top: .8em;
-      right: .4em;
+      top: 0.8em;
+      right: 0.4em;
       animation: slide1 2s ease-in-out infinite;
       margin-left: 9px;
       margin: 0 1em;
-      img{
+      img {
         width: 1em;
-        height: .5em;
-        margin: 0 .2em;
+        height: 0.5em;
+        margin: 0 0.2em;
         //transform: rotate(180deg);
       }
-      
     }
-    .nav-bar{
-      margin-right:-2em;
+    .nav-bar {
+      margin-right: -2em;
       padding: 2em 2em 0 0;
       width: 60%;
       height: 100%;
-      .linkBox{
+      .linkBox {
         text-align: center;
         width: 5em;
       }
       white-space: nowrap;
       overflow-x: scroll;
-      .router-link{
-        margin: -.5em 0;
+      .router-link {
+        margin: -0.5em 0;
         font-size: 1.2em;
-        &.selected{
-        
+        &.selected {
         }
       }
 
@@ -181,27 +176,28 @@ $mini: 414px;
         100% {
           transform: translate(0, 0);
         }
-      
+
         50% {
-          transform: translate(.3em, 0);
+          transform: translate(0.3em, 0);
         }
       }
     }
-    
   }
-
-  
 
   @keyframes rise {
-      0%   {up:0px;}
-      50%  {up:.2em; right:.1em;}
-      100% {up:0px;}
+    0% {
+      up: 0px;
+    }
+    50% {
+      up: 0.2em;
+      right: 0.1em;
+    }
+    100% {
+      up: 0px;
+    }
   }
-
-
 }
 
-
-#header-border{
-  border-top: .1em solid slategray;
+#header-border {
+  border-top: 0.1em solid slategray;
 }
