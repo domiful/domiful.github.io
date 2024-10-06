@@ -1,7 +1,7 @@
 $blue: #57a6f8;
 $green: #404f36;
 $yellow: #efd565;
-$orange: #fe9400;
+$orange: #f7a635;
 $red: #ee6a64;
 $purple: #a770c1;
 $pink: #f2a7dd;
@@ -14,9 +14,9 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 2em 0 2.5em 1em;
+  margin: 4em 0 5em 1em;
   padding: 0 1em 1.5em 2em;
-  border-bottom: 0.1em solid whitesmoke;
+  border-bottom: 0.1em solid #d7d8d9;
   a {
     text-decoration: none;
   }
@@ -25,6 +25,7 @@ $mini: 414px;
     padding: 1em 0 0 0;
     text-align: left;
     .pheader {
+      margin: .5em 0;
       font-family: "Rajdhani", Helvetica, Arial, sans-serif;
       //padding-left: 2em;
       width: 80%;
@@ -39,7 +40,7 @@ $mini: 414px;
     }
 
     .pinfo {
-      padding-top: 0.4em;
+      padding: 0.4em 0 2em 0;
       text-align: justify;
       float: left;
       border-top-right-radius: 0.2em;

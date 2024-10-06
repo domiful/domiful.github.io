@@ -56,7 +56,7 @@ const AboutItem = (props) =>
             to="analytics"
           >
             <img src={props.imgs[2]} alt="" />
-            <span className="title">Data Analytics</span>
+            <span className="title">Data   Analytics</span>
           </Link>
         </span>
         <span className="cat">
