@@ -26,7 +26,7 @@ const AboutItem = (props) =>
             to="consulting"
           >
             <img src={props.imgs[3]} alt="" />
-            <span className="title">Consulting</span>
+            <span className="title">Digital Consulting</span>
           </Link>
         </span>
         <span className="cat">
@@ -56,7 +56,7 @@ const AboutItem = (props) =>
             to="analytics"
           >
             <img src={props.imgs[2]} alt="" />
-            <span className="title">Data Analytics</span>
+            <span className="title">Data Analytics & Engineering</span>
           </Link>
         </span>
         <span className="cat">

@@ -1,5 +1,5 @@
 $blue: #57a6f8;
-$green: #485a3c;
+$green: #778686;
 $yellow: #efd565;
 $orange: #f7a635;
 $red: #ee6a64;
@@ -25,17 +25,17 @@ $mini: 414px;
     padding: 1em 0 0 0;
     text-align: left;
     .pheader {
-      margin: 0.5em 0;
+      margin: 0.5em 0 0 0;
       font-family: "Rajdhani", Helvetica, Arial, sans-serif;
       //padding-left: 2em;
       width: 80%;
-      color: darkslategray;
-      font-weight: 600;
+      color: gray;
+      font-weight: 500;
       font-size: 1.5em;
       &:hover {
         //text-decoration: underline .12em solid $orange;
-        font-weight: 700;
-        color: $orange;
+        font-weight: 800;
+        color: $green;
       }
     }
 
@@ -45,7 +45,7 @@ $mini: 414px;
       float: left;
       border-top-right-radius: 0.2em;
       font-family: "Barlow", Helvetica, Arial, sans-serif;
-      color: black;
+      color: rgb(59, 59, 59);
       font-size: 1em;
       font-weight: 400;
       line-height: 1.1;

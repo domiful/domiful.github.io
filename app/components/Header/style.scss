@@ -5,6 +5,7 @@ $orange: #f7a635;
 $red: #ee6a64;
 $purple: #a770c1;
 $pink: #f2a7dd;
+$grey: #778686;
 
 $midi: 768px;
 $mini: 414px;
@@ -97,10 +98,10 @@ $mini: 414px;
     font-weight: 800;
     font-size: 1.5em;
     letter-spacing: 0;
-    color: darkslategray;
+    color: $grey;
     position: relative;
     &:hover:not(.selected) {
-      color: $orange;
+      color: $green;
       //letter-spacing: 0.1em;
       font-family: "Bungee Hairline", Helvetica, Arial, sans-serif;
       transition: font-size 0.2s ease, font-family 0.2s ease;
@@ -119,7 +120,7 @@ $mini: 414px;
     }
 
     &.selected {
-      color: $orange;
+      color: $grey;
       padding: 0.2em 0.1em;
       font-size: 1.35em;
       letter-spacing: 0.1em;
