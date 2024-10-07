@@ -2,7 +2,7 @@
 	•	Blue
 	⁃	#57A6F8
 	•	Green
-	⁃	#404F36
+	⁃	#485a3c
 	•	Yellow
 	⁃	#EFD565
 	•	Orange

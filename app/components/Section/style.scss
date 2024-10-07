@@ -1,5 +1,5 @@
 $blue: #57a6f8;
-$green: #404f36;
+$green: #485a3c;
 $yellow: #efd565;
 $orange: #f7a635;
 $red: #ee6a64;
@@ -13,50 +13,60 @@ $mini: 414px;
   width: 100%;
   margin: 0 0 4em 0;
   //height: 3em;
+
   display: inline-block;
   flex-flow: row wrap;
   position: relative;
   // .aboutSection, .contactSection{
-  padding: 1em 1.5em 0 0;
+  padding: 1em 0 0 0;
   //border: .2em solid #d7d8d9;
   //background-color: #d7d8d9;
   //border-radius: 1em;
   .catArea {
-    //background-color: lightslategray;
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0)) 1 100%;
-
-    //border-radius: 1%;
-    margin-top: 0;
+    background: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0));
+    border-radius: 1em;
+    margin-top: -2em;
     .list-item-wrapper {
       border: none;
-      padding: 2em 0;
+      padding: 1em 0 2em;
+      margin: 0 0 2em 0;
       .pinfo {
-        //color: whitesmoke;
         font-weight: 400;
       }
+    }
+  }
+  .content {
+    border: 1px solid lightgray;
+    border-bottom: none;
+    border-radius: 1em;
+    padding-bottom: 0.5em;
+    &.contact {
+      background: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0));
     }
   }
   //}
   .title-wrapper {
     width: 100%;
     display: inline-block;
-    padding-bottom: 1em;
-    margin: 1em 0;
+    padding: 0 2em 1em;
+    margin: 1em;
     .title {
-      font-family: "Bungee Shade", Helvetica, Arial, sans-serif;
+      font-family: "Rajdhani", Helvetica, Arial, sans-serif;
       font-size: 2.5em;
-      font-weight: 400;
+      font-weight: 500;
       text-align: right;
       color: $green;
+      &.bright {
+        //color: black;
+      }
     }
+
     .desc {
       padding: 0 0 0.5em 0;
-      font-family: "Barlow", Helvetica, Arial, sans-serif;
+      font-family: "Rajdhani", Helvetica, Arial, sans-serif;
       font-size: 1em;
       color: darkslategray;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 1.2;
       text-align: right;
       width: 80%;
@@ -73,24 +83,36 @@ $mini: 414px;
   .minititle {
     display: block;
     font-family: "Rajdhani", Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: $orange;
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-align: left;
     padding: 1em 0 0 0;
-    margin: 0 0 -0.5em 2em;
+    margin-left: 1.5em;
   }
 
   .litems {
+    //border: 1px solid gray;
     overflow-x: hidden;
   }
   @media only screen and (max-width: $midi) {
     .minititle {
-      margin: 0 0.6em;
+      margin: 0;
+      padding: 0;
     }
     .title-wrapper {
       margin-bottom: 0;
       padding-bottom: 0;
+      .title {
+        font-size: 2.1em;
+      }
+      .desc {
+        width: 100%;
+      }
+    }
+
+    .content {
+      border: none;
     }
   }
 }

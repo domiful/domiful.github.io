@@ -1,5 +1,5 @@
 $blue: #57a6f8;
-$green: #404f36;
+$green: #485a3c;
 $yellow: #efd565;
 $orange: #f7a635;
 $red: #ee6a64;
@@ -29,16 +29,16 @@ $mini: 414px;
       //height: 4rem;
     }
     img {
-      margin-top: -2em;
-      height: 3em;
+      margin-top: -1em;
+      height: 2.2em;
       //width: 9em;
       padding-left: 0.6em;
     }
     .nav-bar {
       position: relative;
       bottom: 2em;
-      width: 20em;
-      left: 25em;
+      width: 25em;
+      left: 20em;
     }
     @media only screen and (max-width: $midi) {
       width: 100%;
@@ -46,12 +46,13 @@ $mini: 414px;
       padding-left: 1.5rem;
       height: 4rem;
       img {
-        width: 6em;
+        margin-top: 0;
       }
       .nav-bar {
         position: fixed;
-        top: 1.5em;
-        width: 20em;
+        top: 0em;
+        width: 18em;
+        height: 4em;
         left: auto;
       }
     }
@@ -75,7 +76,10 @@ $mini: 414px;
 
     .linkBox {
       display: inline-block;
-      width: 6em;
+      text-align: center;
+      min-width: 7em;
+      max-width: 7em;
+      padding: 0 0.5em;
     }
   }
 
@@ -110,15 +114,16 @@ $mini: 414px;
       padding: 0 0.1em 0.1em 0.1em;
       font-size: 1.36em;
       letter-spacing: 0;
-      font-family: "Bungee Shade", Helvetica, Arial, sans-serif;
+      font-family: "Bungee Outline", Helvetica, Arial, sans-serif;
       transition: padding 0.2s ease, font-family 0.2s ease;
     }
 
     &.selected {
-      color: $green;
+      color: $orange;
       padding: 0.2em 0.1em;
       font-size: 1.36em;
-      font-family: "Bungee Shade", Helvetica, Arial, sans-serif;
+      letter-spacing: 0.1em;
+      font-family: "Bungee", Helvetica, Arial, sans-serif;
     }
   }
 
@@ -161,6 +166,7 @@ $mini: 414px;
       .linkBox {
         text-align: center;
         width: 5em;
+        min-width: 3em;
       }
       white-space: nowrap;
       overflow-x: scroll;

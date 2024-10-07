@@ -1,5 +1,5 @@
 $blue: #57a6f8;
-$green: #404f36;
+$green: #485a3c;
 $yellow: #efd565;
 $orange: #f7a635;
 $red: #ee6a64;
@@ -14,7 +14,7 @@ $mini: 414px;
   display: flex;
   flex-flow: row wrap;
   position: relative;
-  margin: 4em 0 5em 1em;
+  margin: 2em 0 4em;
   padding: 0 1em 1.5em 2em;
   border-bottom: 0.1em solid #d7d8d9;
   a {
@@ -25,12 +25,12 @@ $mini: 414px;
     padding: 1em 0 0 0;
     text-align: left;
     .pheader {
-      margin: .5em 0;
+      margin: 0.5em 0;
       font-family: "Rajdhani", Helvetica, Arial, sans-serif;
       //padding-left: 2em;
       width: 80%;
       color: darkslategray;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 1.5em;
       &:hover {
         //text-decoration: underline .12em solid $orange;
@@ -47,7 +47,7 @@ $mini: 414px;
       font-family: "Barlow", Helvetica, Arial, sans-serif;
       color: black;
       font-size: 1em;
-      font-weight: 300;
+      font-weight: 400;
       line-height: 1.1;
       width: 95%;
 
@@ -74,6 +74,8 @@ $mini: 414px;
 
   @media only screen and (max-width: $midi) {
     //text-align: right;
+    margin: 1em 0 3em 0;
+
     padding: 0;
 
     .pwords {
