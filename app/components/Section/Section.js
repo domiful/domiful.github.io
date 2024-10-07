@@ -88,7 +88,23 @@ const Section = (props) => (
                 "https://drive.google.com/thumbnail?id=1u7uQVDiC_9lL4PTiKdWYlx8SbmUSgkiq",
               ]}
             />
+            
           </span>
+          <div className="topLink">
+              <Link
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                //className="router-link dev"
+                to="catArea"
+              >
+                To Top &uarr;
+              </Link>
+            </div>
+          
           <div className="minititle about">Responsive Web</div>
 
           <span className="litems">
@@ -152,6 +168,20 @@ const Section = (props) => (
               imgs={[site]}
             />
           </span>
+          <div className="topLink">
+              <Link
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                //className="router-link dev"
+                to="catArea"
+              >
+                To Top &uarr;
+              </Link>
+            </div>
           <div className="catLabel">Solutions Engineering</div>
 
           <div className="minititle about" name="solutions">
@@ -194,7 +224,20 @@ const Section = (props) => (
               ]}
             />
           </span>
-
+          <div className="topLink">
+              <Link
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                //className="router-link dev"
+                to="catArea"
+              >
+                To Top &uarr;
+              </Link>
+            </div>
           <div className="minititle about">Developer Advocacy</div>
           <span className="litems">
             <WorkItem
@@ -219,6 +262,20 @@ const Section = (props) => (
               ]}
             />
           </span>
+          <div className="topLink">
+              <Link
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                //className="router-link dev"
+                to="catArea"
+              >
+                To Top &uarr;
+              </Link>
+            </div>
           <div className="catLabel">Data Analysis</div>
 
           <div className="minititle about" name="analytics">
@@ -240,6 +297,20 @@ const Section = (props) => (
               ]}
             />
           </span>
+          <div className="topLink">
+              <Link
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                //className="router-link dev"
+                to="catArea"
+              >
+                To Top &uarr;
+              </Link>
+            </div>
           <div className="catLabel">Consulting</div>
           <div className="minititle about" name="consulting">
             Consulting
@@ -260,6 +331,20 @@ const Section = (props) => (
               ]}
             />
           </span>
+          <div className="topLink">
+              <Link
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                //className="router-link dev"
+                to="catArea"
+              >
+                To Top &uarr;
+              </Link>
+            </div>
         </div>
       </Element>
     </div>
@@ -294,6 +379,20 @@ const Section = (props) => (
             />
           </span>
         </div>
+        <div className="topLink">
+              <Link
+                activeClass="selected"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-200}
+                duration={500}
+                //className="router-link dev"
+                to="catArea"
+              >
+                To Top &uarr;
+              </Link>
+            </div>
       </Element>
     </div>
     <div className="section">

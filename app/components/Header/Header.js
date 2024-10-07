@@ -104,7 +104,7 @@ class Header extends React.Component {
                     spy={true}
                     smooth={true}
                     hashSpy={true}
-                    offset={-200}
+                    offset={-100}
                     duration={500}
                     className="router-link dev"
                     to="work"
@@ -118,7 +118,7 @@ class Header extends React.Component {
                     spy={true}
                     smooth={true}
                     hashSpy={true}
-                    offset={-200}
+                    offset={-100}
                     duration={500}
                     className="router-link about"
                     to="about"
@@ -133,7 +133,7 @@ class Header extends React.Component {
                     spy={true}
                     smooth={true}
                     hashSpy={true}
-                    offset={-150}
+                    offset={-100}
                     duration={500}
                     className="router-link contact"
                     to="contact"

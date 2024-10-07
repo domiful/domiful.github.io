@@ -20,7 +20,7 @@ const AboutItem = (props) =>
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={-100}
+            offset={-200}
             duration={500}
             className="router-link dev"
             to="consulting"
@@ -35,7 +35,7 @@ const AboutItem = (props) =>
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={-100}
+            offset={-200}
             duration={500}
             className="router-link dev"
             to="apps"
@@ -50,7 +50,7 @@ const AboutItem = (props) =>
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={-100}
+            offset={-200}
             duration={500}
             className="router-link dev"
             to="analytics"
@@ -65,7 +65,7 @@ const AboutItem = (props) =>
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={-100}
+            offset={-200}
             duration={500}
             className="router-link dev"
             to="solutions"

@@ -107,6 +107,8 @@ $mini: 414px;
     font-weight: 500;
     color: black;
     font-size: 1.5em;
+    letter-spacing: 2px;
+
     text-align: left;
     padding: 0;
     margin-left: 1.25em;
@@ -116,6 +118,23 @@ $mini: 414px;
     //border: 1px solid gray;
     overflow-x: hidden;
   }
+
+  .topLink{
+    width: 100%;
+    padding: 1em;
+    margin: -6em 0 6em 0;
+    
+    text-align: right;
+    text-transform: uppercase;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    letter-spacing: 0.1em;
+    
+    font-weight: 600;
+    color: $grey;
+  }
+
+
   @media only screen and (max-width: $midi) {
     .catArea {
       margin-top: 0;
