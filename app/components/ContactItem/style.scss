@@ -96,6 +96,11 @@ $mini: 414px;
       display: block;
       width: 100%;
       padding: 0.6em 0;
+
+      a {
+        display: inline-block;
+        margin-bottom: 1em;
+      }
     }
   }
 }

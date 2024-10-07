@@ -51,9 +51,9 @@ $mini: 414px;
       .nav-bar {
         position: fixed;
         top: 0em;
-        width: 18em;
+        width: 15em;
         height: 4em;
-        left: auto;
+        left: 8em;
       }
     }
   }
@@ -161,12 +161,12 @@ $mini: 414px;
     .nav-bar {
       margin-right: -2em;
       padding: 2em 2em 0 0;
-      width: 60%;
       height: 100%;
       .linkBox {
-        text-align: center;
+        text-align: left;
+        font-size: 1em;
         width: 5em;
-        min-width: 3em;
+        min-width: 4em;
       }
       white-space: nowrap;
       overflow-x: scroll;

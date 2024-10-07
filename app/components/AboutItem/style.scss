@@ -33,12 +33,12 @@ $mini: 414px;
       height: 14em;
       border-radius: 3%;
       &:hover {
-        background-color: lightgray;
+        background-color: white;
         opacity: 0.8;
         img {
           opacity: 1;
           //filter: grayscale(100%) brightness(4);
-          filter: saturate(0.1) brightness(3);
+          filter: saturate(0.1) brightness(0.5);
         }
         .title {
           font-weight: 600;

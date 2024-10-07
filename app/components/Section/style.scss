@@ -96,8 +96,14 @@ $mini: 414px;
     overflow-x: hidden;
   }
   @media only screen and (max-width: $midi) {
+    .catArea {
+      margin-top: 0;
+      .pinfo {
+        padding: 0 1em;
+      }
+    }
     .minititle {
-      margin: 0;
+      margin: 1em 0;
       padding: 0;
     }
     .title-wrapper {

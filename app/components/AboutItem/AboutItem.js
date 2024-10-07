@@ -23,6 +23,21 @@ const AboutItem = (props) =>
             offset={-100}
             duration={500}
             className="router-link dev"
+            to="consulting"
+          >
+            <img src={props.imgs[3]} alt="" />
+            <span className="title">Consulting</span>
+          </Link>
+        </span>
+        <span className="cat">
+          <Link
+            activeClass="selected"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={-100}
+            duration={500}
+            className="router-link dev"
             to="apps"
           >
             <img src={props.imgs[0]} alt="" />
@@ -38,40 +53,25 @@ const AboutItem = (props) =>
             offset={-100}
             duration={500}
             className="router-link dev"
+            to="analytics"
+          >
+            <img src={props.imgs[2]} alt="" />
+            <span className="title">Data Analytics</span>
+          </Link>
+        </span>
+        <span className="cat">
+          <Link
+            activeClass="selected"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={-100}
+            duration={500}
+            className="router-link dev"
             to="solutions"
           >
             <img src={props.imgs[1]} alt="" />
             <span className="title">Solutions Engineering</span>
-          </Link>
-        </span>
-        <span className="cat">
-          <Link
-            activeClass="selected"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={-100}
-            duration={500}
-            className="router-link dev"
-            to="analytics"
-          >
-            <img src={props.imgs[2]} alt="" />
-            <span className="title">Data   Analytics</span>
-          </Link>
-        </span>
-        <span className="cat">
-          <Link
-            activeClass="selected"
-            spy={true}
-            smooth={true}
-            hashSpy={true}
-            offset={-100}
-            duration={500}
-            className="router-link dev"
-            to="consulting"
-          >
-            <img src={props.imgs[3]} alt="" />
-            <span className="title">Consulting</span>
           </Link>
         </span>
       </div>
