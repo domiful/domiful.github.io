@@ -54,7 +54,8 @@ const Section = (props) => (
           </div>
           <br />
         </div>
-        <div className="content">
+        <div className="content work">
+          <div className="catLabel">Software Engineering</div>
           <div className="minititle about" name="apps">
             Mobile Apps
           </div>
@@ -151,6 +152,7 @@ const Section = (props) => (
               imgs={[site]}
             />
           </span>
+          <div className="catLabel">Solutions Engineering</div>
 
           <div className="minititle about" name="solutions">
             Cloud Platforms
@@ -217,6 +219,7 @@ const Section = (props) => (
               ]}
             />
           </span>
+          <div className="catLabel">Data Analysis</div>
 
           <div className="minititle about" name="analytics">
             Data Analytics
@@ -237,6 +240,7 @@ const Section = (props) => (
               ]}
             />
           </span>
+          <div className="catLabel">Consulting</div>
           <div className="minititle about" name="consulting">
             Consulting
           </div>
@@ -268,7 +272,7 @@ const Section = (props) => (
             Einstein
           </div>
         </div>
-        <div className="content">
+        <div className="content about">
           <span className="litems">
             <AboutItem
               title="Bio"
@@ -306,7 +310,7 @@ const Section = (props) => (
           <span className="litems">
             <ContactItem
               title="Contact"
-              info="This is where info is going fmi."
+              info="This is where info is going."
             />
           </span>
         </div>

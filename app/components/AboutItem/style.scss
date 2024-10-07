@@ -28,10 +28,10 @@ $mini: 414px;
     .cat {
       display: block;
       text-align: center;
-      padding: 0;
+      padding: 1em 0;
       width: 25%;
       height: 14em;
-      border-radius: 3%;
+      border-radius: 1em;
       &:hover {
         background-color: white;
         opacity: 0.8;
@@ -48,8 +48,11 @@ $mini: 414px;
       img {
         opacity: 0.9;
         filter: saturate(0.5) brightness(1.5);
-        width: 75%;
-        padding: 1em 0 0.5em;
+        width: 80%;
+        padding: 1em 1em 0.5em;
+        margin-bottom: 1em;
+        border: 1px solid lightgray;
+        border-radius: 1em;
         display: inline-block;
       }
       .title {
@@ -57,7 +60,7 @@ $mini: 414px;
         width: 80%;
         font-family: "Barlow", Helvetica, Arial, sans-serif;
         //padding-left: 2em;
-        color: slategray;
+        color: gray;
         font-weight: 500;
         letter-spacing: 0.1em;
         text-transform: uppercase;
@@ -119,8 +122,11 @@ $mini: 414px;
     .categories {
       padding: 0 1em;
       .cat {
-        height: 11em;
+        height: 12em;
         width: 50%;
+        img{
+          max-width: 40%;
+        }
         .title {
           width: 100%;
         }
@@ -132,7 +138,7 @@ $mini: 414px;
       }
       width: 100%;
       display: block;
-      padding: 0;
+      padding: 0 1em 0 0;
       .pheader,
       .pinfo {
         display: block;

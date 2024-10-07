@@ -46,14 +46,14 @@ $mini: 414px;
       padding-left: 1.5rem;
       height: 4rem;
       img {
-        margin-top: 0;
+        margin-top: -1em;
       }
       .nav-bar {
         position: fixed;
-        top: 0em;
-        width: 15em;
+        top: 1.5em;
+        width: 25em;
         height: 4em;
-        left: 8em;
+        left: 20em;
       }
     }
   }
@@ -112,7 +112,7 @@ $mini: 414px;
       //&.dev{color:$green;}
       //&.contact{color:$orange;}
       padding: 0 0.1em 0.1em 0.1em;
-      font-size: 1.36em;
+      font-size: 1.4em;
       letter-spacing: 0;
       font-family: "Bungee Outline", Helvetica, Arial, sans-serif;
       transition: padding 0.2s ease, font-family 0.2s ease;
@@ -121,11 +121,12 @@ $mini: 414px;
     &.selected {
       color: $orange;
       padding: 0.2em 0.1em;
-      font-size: 1.36em;
+      font-size: 1.35em;
       letter-spacing: 0.1em;
       font-family: "Bungee", Helvetica, Arial, sans-serif;
     }
   }
+
 
   @media only screen and (max-width: $mini) {
     border-bottom: 1px solid slategray;
