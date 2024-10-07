@@ -23,15 +23,10 @@ $mini: 414px;
   //border-radius: 1em;
   .catArea {
     //background-color: lightslategray;
-    border-width: 5px;
-  border-style: solid;
-  border-image: 
-    linear-gradient(
-      to bottom, 
-      lightgray, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
-    
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0)) 1 100%;
+
     //border-radius: 1%;
     margin-top: 0;
     .list-item-wrapper {
@@ -93,7 +88,7 @@ $mini: 414px;
     .minititle {
       margin: 0 0.6em;
     }
-    .title-wrapper{
+    .title-wrapper {
       margin-bottom: 0;
       padding-bottom: 0;
     }
