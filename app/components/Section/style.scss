@@ -24,17 +24,13 @@ $mini: 414px;
   //background-color: #d7d8d9;
   //border-radius: 1em;
   .catArea {
-    background: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0));
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0)
+    );
     border-radius: 1em;
     margin-top: -2em;
-    .list-item-wrapper {
-      border: none;
-      padding: 1em 0 2em;
-      margin: 0 0 2em 0;
-      .pinfo {
-        font-weight: 400;
-      }
-    }
   }
   .content {
     border: 1px solid lightgray;
@@ -42,30 +38,39 @@ $mini: 414px;
     border-radius: 1em;
     padding-bottom: 0.5em;
     &.contact {
-      background: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0) 50%);
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.5),
+        rgba(0, 0, 0, 0) 90%
+      );
     }
     &.work {
-      background: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0) 5%);
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.5),
+        rgba(0, 0, 0, 0) 20%
+      );
     }
     &.about {
-      background: linear-gradient(to bottom, lightgray, rgba(0, 0, 0, 0) 50%);
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.5),
+        rgba(0, 0, 0, 0) 40%
+      );
     }
   }
   //}
   .title-wrapper {
     width: 100%;
     display: inline-block;
-    padding: 0 2em 1em;
-    margin: 1em;
+    padding: 0 2em 0 0;
+    margin: 0 1em;
     .title {
       font-family: "Bungee Hairline", Helvetica, Arial, sans-serif;
       font-size: 2.2em;
       font-weight: 800;
       text-align: right;
       color: black;
-      &.bright {
-        //color: black;
-      }
     }
 
     .desc {
@@ -87,12 +92,12 @@ $mini: 414px;
     // }
   }
 
-  .catLabel{
+  .catLabel {
     text-align: left;
     margin: 2em 0 0 2em;
     //padding: 2em 0 0 2em;
-    font-family: "Barlow", Helvetica, Arial, sans-serif;
-    color: gray;
+    font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -105,7 +110,7 @@ $mini: 414px;
     font-family: "Rajdhani", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    color: black;
+    color: rgb(40, 40, 40);
     font-size: 1.5em;
     letter-spacing: 2px;
 
@@ -119,21 +124,20 @@ $mini: 414px;
     overflow-x: hidden;
   }
 
-  .topLink{
+  .topLink {
     width: 100%;
     padding: 1em;
     margin: -6em 0 6em 0;
-    
+
     text-align: right;
     text-transform: uppercase;
     font-family: "Barlow", Arial, Helvetica, sans-serif;
-    font-size: .8em;
+    font-size: 0.7em;
     letter-spacing: 0.1em;
-    
+
     font-weight: 600;
     color: $grey;
   }
-
 
   @media only screen and (max-width: $midi) {
     .catArea {
@@ -146,7 +150,7 @@ $mini: 414px;
       margin: 0 0 1em 0;
       padding: 0;
     }
-    .catLabel{
+    .catLabel {
       padding: 0em;
       margin: 2em 0 0;
     }
@@ -163,9 +167,12 @@ $mini: 414px;
 
     .content {
       border: none;
-      &.work{
+      &.work {
         background: none;
       }
+    }
+    .topLink {
+      margin: -4em 0 5em;
     }
   }
 }
