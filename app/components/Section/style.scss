@@ -158,7 +158,10 @@ $mini: 414px;
       margin-bottom: 0;
       padding-bottom: 0;
       .title {
-        font-size: 2.1em;
+        font-size: 2em;
+        &.long {
+          font-size: 1.6em;
+        }
       }
       .desc {
         width: 100%;

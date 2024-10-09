@@ -29,9 +29,8 @@ const Section = (props) => (
   <div>
     <div className="section">
       <div className="title-wrapper">
-        <div className="title">What I can do for you</div>
+        <div className="title long">What I can do for you</div>
       </div>
-      <br />
       <Element name="guide" className="catArea">
         <AboutItem
           title=""
@@ -190,10 +189,8 @@ You will find below examples of my work broken into the following categories:"
               To Top &uarr;
             </Link>
           </div>
-          <div className="catLabel">Solutions Engineering</div>
-
           <div className="minititle about" name="solutions">
-            Cloud Platforms
+            Development Platform
           </div>
           <span className="litems">
             <WorkItem
@@ -203,6 +200,13 @@ You will find below examples of my work broken into the following categories:"
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
             />
+          </span>
+          <div className="catLabel">Solutions Engineering</div>
+
+          <div className="minititle about" name="solutions">
+            Cloud Platforms
+          </div>
+          <span className="litems">
             <WorkItem
               title="Oracle Cloud Infrastructure"
               info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
@@ -388,35 +392,32 @@ If you're seeking a digital consultant who can help you drive innovation, optimi
             <AboutItem
               title="Education"
               info="<br />
-<br /><b>Rochester Institute of Technology</b>
-<br />
-<br />
-I got my Bachelors in Information Technology from the Rochester Institute of Technology almost 10 years ago in 2015. I had already began to learn coding in high school but RIT is where I really learned the fundamentals of software development, UI/UX design, marketing fundamentals and so much more. I also minored in Political Science. By combining a diverse range of specializations, hands-on learning opportunities, industry partnerships, state-of-the-art facilities, experienced faculty, and a strong alumni network, RIT provided me with the tools and resources I needed to excel in the dynamic tech industry.<br />
-<br />
-RIT's partnerships with leading technology companies provide students with access to internships and industry experts. I had 2 Project Management internships while attending RIT. The first was at Excellus BCBS managing the creation of an RFP for an Enterprise Modeling Tool and the second was at AEG managing an on-prem to cloud migration for a Fortune 500 company.<br />
-<br />
-Overall, RIT's information technology program offers a well-rounded education that prepared me for a successful and rewarding career.<br />
-<br />
-<br />
-<b>Columbia University</b>
-<br />
-<br />
-I graduated in May 2023 with an MBA from Columbia Business School. Before grad school my entire career had been focused on engineering roles. Each role however gained  more client facing elements and I found myself more interested in learning how I can provide greater impact and customer service for my clients. I also gained greater critical thinking, leadership and strategic thinking skills all while building a network of the most amazing new friends.<br />
-<br />
-I interned at Block as a Retail Marketing Analyst. My main focus was analyzing new customer data for trends and migrating internal sheets to automated Looker Dashboards.
-Columbia Business School's academic offerings, particularly in the areas of innovation and marketing, are truly exceptional. The school's curriculum is designed to equip students with the tools and knowledge necessary to succeed in today's rapidly evolving business landscape.<br />
-<br />
-In the realm of innovation, Columbia offers a wide range of courses that delve into topics such as design thinking, disruptive technologies, and entrepreneurial leadership. I had the opportunity to work on real-world projects, collaborating with startups and established companies to develop innovative solutions. Additionally, the school's strong connections to the venture capital community provided invaluable networking opportunities.<br />
-<br />
-The marketing curriculum at Columbia is equally impressive, focusing on both traditional and digital marketing strategies. I gained expertise in areas such as brand management, consumer behavior, and data analytics."
+                    <br /><b>Rochester Institute of Technology</b>
+                    <br />
+                    <br />
+                    I got my Bachelors in Information Technology from the Rochester Institute of Technology almost 10 years ago in 2015. I had already began to learn coding in high school but RIT is where I really learned the fundamentals of software development, UI/UX design, marketing fundamentals and so much more. I also minored in Political Science. By combining a diverse range of specializations, hands-on learning opportunities, industry partnerships, state-of-the-art facilities, experienced faculty, and a strong alumni network, RIT provided me with the tools and resources I needed to excel in the dynamic tech industry.<br />
+                    <br />
+                    RIT's partnerships with leading technology companies provide students with access to internships and industry experts. I had 2 Project Management internships while attending RIT. The first was at Excellus BCBS managing the creation of an RFP for an Enterprise Modeling Tool and the second was at AEG managing an on-prem to cloud migration for a Fortune 500 company.<br />
+                    <br />
+                    Overall, RIT's information technology program offers a well-rounded education that prepared me for a successful and rewarding career.<br />
+                    <br />
+                    <br />
+                    <b>Columbia University</b>
+                    <br />
+                    <br />
+                    I graduated in May 2023 with an MBA from Columbia Business School. Before grad school my entire career had been focused on engineering roles. Each role however gained  more client facing elements and I found myself more interested in learning how I can provide greater impact and customer service for my clients. I also gained greater critical thinking, leadership and strategic thinking skills all while building a network of the most amazing new friends.<br />
+                    <br />
+                    I interned at Block as a Retail Marketing Analyst. My main focus was analyzing new customer data for trends and migrating internal sheets to automated Looker Dashboards.
+                    Columbia Business School's academic offerings, particularly in the areas of innovation and marketing, are truly exceptional. The school's curriculum is designed to equip students with the tools and knowledge necessary to succeed in today's rapidly evolving business landscape.<br />
+                    <br />
+                    In the realm of innovation, Columbia offers a wide range of courses that delve into topics such as design thinking, disruptive technologies, and entrepreneurial leadership. I had the opportunity to work on real-world projects, collaborating with startups and established companies to develop innovative solutions. Additionally, the school's strong connections to the venture capital community provided invaluable networking opportunities.<br />
+                    <br />
+                    The marketing curriculum at Columbia is equally impressive, focusing on both traditional and digital marketing strategies. I gained expertise in areas such as brand management, consumer behavior, and data analytics."
               section={props.section}
-              imgs={[phil]}
-            />
-            <AboutItem
-              title="Philosophy"
-              info="I actually don’t really believe in having a philosophy. It constrains your thinking and can be detrimental to any process. Everything cannot be minimal, but everything should be understandable."
-              section={props.section}
-              imgs={[phil]}
+              imgs={[
+                "https://www.rit.edu/brandportal/sites/rit.edu.brandportal/files/inline-images/new_RIT_logo1_RGB_0.png",
+                "https://mlt.org/wp-content/uploads/2015/12/Columbia-Business-School-Logo-FC-2.png",
+              ]}
             />
           </span>
         </div>

@@ -115,6 +115,8 @@ $mini: 414px;
       //max-width: 90%;
       //height: 100%;
       max-height: 13em;
+      max-width: 15em;
+      margin: 5em 0 1em;
       border-radius: 3%;
     }
   }
@@ -126,10 +128,10 @@ $mini: 414px;
         height: 12em;
         width: 50%;
         img {
-          max-width: 40%;
+          max-width: 70%;
         }
         .title {
-          width: 100%;
+          width: 90%;
         }
       }
     }
@@ -153,12 +155,17 @@ $mini: 414px;
       max-width: 100%;
       display: block;
       width: 100%;
-      text-align: center;
-      padding: 3em 6em;
+      //text-align: center;
+      //padding: 3em 6em;
+      img {
+        margin: 1em;
+      }
     }
   }
 
   @media only screen and (max-width: $mini) {
+    padding: 2.5em 0;
+
     .pwords {
       width: 100%;
       display: block;
