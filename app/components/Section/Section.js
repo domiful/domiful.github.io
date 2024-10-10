@@ -209,28 +209,87 @@ You will find below examples of my work broken into the following categories:"
           <span className="litems">
             <WorkItem
               title="Oracle Cloud Infrastructure"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              info="<b>Iaas</b>
+<br />
+<br />
+As a solutions engineer, I leveraged Oracle Cloud Infrastructure to create powerful proof-of-concepts and demos. OCI's comprehensive suite of IaaS solutions allowed me to build and deploy applications and data in the cloud.
+<br />
+I utilized compute resources like virtual machines, bare metal instances, and GPUs to meet various performance and scalability requirements. For storage, I used object storage, block storage, and file storage to accommodate different data types and access needs.
+<br />
+I also implemented Database services like Oracle Autonomous Database and Oracle Database Cloud to provide reliable and scalable data storage and management.
+<br />
+<br />
+<b>App Dev</b>
+<br />
+<br />
+As a solutions engineer, I integrated mobile and AI technologies into OCI-based enterprise solutions to deliver exceptional front-end experiences.
+For instance, in the e-commerce platform, I developed native mobile apps for iOS and Android to provide a seamless shopping experience. These apps implemented real-time chatbots powered by natural language processing (NLP) to provide instant customer support.
+<br />
+In the ERP modernization project, I integrated mobile apps for field workers to access critical business data and perform tasks on the go. These apps utilized AI-powered image recognition to automate processes like inventory management and asset tracking. Additionally, I implemented AI-driven predictive analytics within the ERP system to forecast demand and optimize supply chain operations.
+<br />
+For the healthcare organization's EHR system, I developed a mobile app for patients to access their medical records, schedule appointments, and communicate with healthcare providers. The app incorporated AI-powered virtual assistants to answer common health questions and provide personalized health recommendations.
+<br />
+By integrating mobile and AI technologies, I was able to create more user-friendly, efficient, and intelligent enterprise solutions. These solutions not only improved user experiences but also drove business value by automating tasks, enhancing decision-making, and fostering stronger customer relationships.
+"
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
             />
             <WorkItem
               title="Kinvey"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              info="<b>Mbaas</b>
+<br />
+<br />
+A Mobile Backend as a Service (MBaaS) is a cloud-based service that helps developers build mobile app backends. A MBaaS provides a consistent way to manage backend data, and acts as a bridge between the front-end of an app and various cloud-based backends. A MBaaS is specifically for mobile apps, while a Backend as a Service (BaaS) is more traditional and is used for web-based apps.
+<br />
+Kinvey handles all the server-side components needed for mobile apps to work, such as: Databases, Push notifications, API services, Authentication, Hosting, and File storage. I used it for a number of projects through its low code and no code integrations.
+<br />
+<br />
+<b>Serverless</b>
+<br />
+<br />
+Kinvey provides a couple of ways to write server-side code for your mobile, web, or chatbot apps: Business Logic and Flex. Both enable you to focus on the functional business logic of an application while Kinvey handles the work of receiving, parsing, and routing requests, connecting to and querying data stores.
+<br />
+I used Kinvey Flex’s data integration services, authentication services, and other functions to create Node.js projects and deploy them either on a Kinvey runtime.
+This approach has the benefit of having access to unlimited NPM libraries, including bridges to proprietary solutions like Oracle in case you choose to run it outside of the Kinvey runtime. Other benefits include compatibility with continuous integration and support for local testing
+<br />
+<br />
+<b>NativeScript</b>
+The official NativeScript website: https://nativescript.org/
+<br />
+<br />
+NativeScript is an open-source framework that allows you to build native mobile apps for iOS and Android using JavaScript, or a language that compiles to JavaScript like TypeScript.
+<br />
+While working at Progress I used NativeScript in tandem with other mobile languages to build custom mobile solutions for clients."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
             />
             <WorkItem
               title="Sitefinity"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              info="<b>CMS</b>
+<br />
+<br />
+Sitefinity goes beyond basic website creation. It integrates with marketing tools and allows you to manage your content and campaigns across multiple channels, like social media and email. It also allows you to personalize the user experience by tailoring content and offers to individual visitors based on their preferences and behavior.
+Additionally, it’s a scalable platform that can accommodate the growth of your business and website traffic. 
+<br />
+Sitefinity’s user-friendly interface, efficient workflows, marketing tools, personalization features, and scalability made it an easy product to demonstrate the benefits of. My job was to show how valuable an option for businesses looking to create and manage effective digital experiences it was through custom POCs and demos.
+<br /><br />
+<b>Insight</b>
+<br /><br />
+Sitefinity Insight is a companion platform to Sitefinity CMS, but with a specific focus on audience intelligence and data-driven marketing. It goes beyond basic website analytics. It gathers and analyzes data from various sources to create comprehensive profiles of your website visitors. This allows you to understand their demographics, preferences, behavior patterns, and how they interact with your brand across different channels. Sitefinity Insight also tracks the performance of your marketing campaigns across channels. It can set up alerts to notify you of any significant changes in user behavior or campaign performance.
+<br />
+Sitefinity Insight transforms Sitefinity CMS from a content management tool to a data-driven marketing platform. I not only used this as part of my POCs, but also as a Technical Marketing Engineer I managed the installation and personalization of the service for a few of Progress’s production websites. "
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
             />
             <WorkItem
-              title="Cloud Agnostic"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              title="MOVEit"
+              info="MOVEit is a versatile file transfer solution developed by Progress, to securely and efficiently transfer files, especially those containing sensitive data. It offers robust encryption and authentication mechanisms to protect data during transmission, ensuring compliance with industry regulations like HIPAA, GDPR, and PCI DSS. It also provides automation capabilities, allowing users to schedule file transfers and define workflows to streamline processes.
+<br />
+<br />
+I used MOVEit to integrate with other applications and systems to integrate secure data was transferred between various business environments. Its APIs are easy to incorporate into existing workflows, making it easy to add security to vulnerable applications."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
@@ -253,22 +312,45 @@ You will find below examples of my work broken into the following categories:"
           <div className="minititle about">Developer Advocacy</div>
           <span className="litems">
             <WorkItem
-              title="My Article"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              title="Content Generation"
+              info="<b>Article: Personalized Web Portals</b>
+<br />
+<br />
+I wrote an article among other blog posts and written content, that was published in Release.nl. It is about the best practices for building a personalized web portals.
+The COVID-19 pandemic accelerated the need for organizations to adopt digital solutions, particularly web portals, to serve their users effectively. However, building a successful web portal requires careful consideration of various factors, including security, accessibility, and personalization.
+<br />
+Organizations must prioritize user experience by ensuring a secure and responsive design, while also complying with relevant laws and regulations. This involves implementing strong security measures, using modern tools for data validation and optimization, and focusing on accessibility for all users. Additionally, personalization is crucial for delivering tailored content and improving customer relationships. By addressing these key aspects, organizations can create effective web portals that meet the evolving needs of their users and contribute to overall business success.
+<br />
+<br />
+<b>Social Media</b>
+<br />
+<br />
+A developer advocate on social media typically plays the role of a brand ambassador and community builder. I engaged with developers and technical professionals to promote Cross Product Integration at Progress. I kept the community informed about new features, releases, and updates to their company's products.
+<br />
+While offering guidance to developers I produced blog posts, tutorials, videos, and other resources in forums, discussion boards, and social media groups to build relationships and foster a sense of community. I also hosted webinars, and live streams to connect with developers. Working directly with end users it is important to collect feedback to help improve the product.
+<br />
+I love building a strong and engaged community around through the strength of the products I am working with. I can help drive awareness, adoption, and loyalty among your target audience by providing valuable content, support, and fostering connections on social media."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
             />
             <WorkItem
-              title="Cross Platform Integrations"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
-              imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
-              ]}
-            />
-            <WorkItem
-              title="Technical Evangelism"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              title="Cross Platform Integrations SME"
+              info="<b>Technical Evangelism</b>
+<br />
+<br />
+As a technical evangelist at Progress for Cross Product Integration, I bridged the gap between Progress's technical teams and the target market. Passionate about technology and deeply knowledgeable about cloud technology, I aimed to promote and educate potential customers about the value of Progress’s platforms and tools.
+I achieved this through various responsibilities: product evangelism, technical education, community engagement, feedback collection, public speaking, and technical support. By acting as a brand ambassador, I helped drive adoption of Progress services to developers.
+<br />
+<br />
+<b>Conferences / webinars / workshops</b>
+<br />
+<br />
+As a technical SME who has frequently attended conferences, I've had the opportunity to share my expertise with a wide audience. I've delivered presentations on various topics, participated in thought-provoking panel discussions, and conducted hands-on workshops to teach others practical skills.
+<br />
+Networking has been a valuable aspect of my conference experiences. I've connected with colleagues, industry leaders, and potential clients, forging strong relationships and exchanging ideas. By answering attendees' questions and providing guidance, I've helped them understand complex technical concepts and make informed decisions.
+<br />
+As a technical SME, I've created a variety of content to share my expertise and connect with my audience. I've developed infographics, videos, and slideshows to visually represent complex concepts. To engage with my audience more interactively, I've created online courses, webinars, and podcasts. I've also participated in online communities and forums to answer questions and connect with other experts. By sharing this diverse content, I've been able to position myself as a thought leader, build my personal brand, and attract new opportunities."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
@@ -288,22 +370,47 @@ You will find below examples of my work broken into the following categories:"
               To Top &uarr;
             </Link>
           </div>
-          <div className="catLabel">Data Analysis</div>
+          <div className="catLabel">Data Analytics</div>
 
           <div className="minititle about" name="analytics">
-            Data Analytics
+            Data Platforms and Tools
           </div>
           <span className="litems">
             <WorkItem
-              title="Snowflake"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              title="SQL"
+              info="<b>SQL</b>
+<br />
+<br />
+I have used SQL in most of the applications i have built to store and manipulate data in databases.
+<br /><br />
+<b>Snowflake</b>
+<br /><br />
+I interned at Block as Data Analyst for hardware marketing team. One of my main focuses was to find trends and impact within a data warehouse in Snowflake.
+<br />Snowflake is a powerful cloud-based data warehousing and analytics platform that offers a wide range of capabilities for data analysts.
+<br />It provides a highly scalable and secure environment for storing large amounts of data. Snowflake also supports loading data from a variety of sources, including files, databases, and applications. I used SQL on Snowflake to perform complex queries and analysis on large datasets for marketing campaign analysis.
+<br />
+<br />
+<b>Oracle DB & MySQL</b>
+<br />
+<br />
+Oracle Database and MySQL are a powerful relational database management systems that offer a comprehensive set of features for managing and storing data. They are widely used by organizations of all sizes due to their reliability, performance, and scalability.
+<br />
+They both integrate seamlessly with other Oracle products and third-party applications, enabling organizations to build comprehensive data-driven solutions.
+<br />
+As a Solutions Engineer my job was to integrate Oracle Database or MySQL into on-premises, in the cloud, and in a hybrid environments. They seamlessly integrate with OCI, providing a comprehensive cloud platform for database management and scaling."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
             />
             <WorkItem
               title="Looker"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              info="As a marketing analyst, I found Looker to be an invaluable tool. It helped me centralize data from various sources, providing a unified view of marketing performance. I was able to access real-time data to make informed decisions quickly.
+<br />
+<br />
+I created custom dashboards to visualize specific marketing metrics and trends, and effectively communicated insights to stakeholders through compelling visualizations. Looker also enabled collaboration with teams across the organization.
+<br />
+<br />
+I explored data to uncover hidden patterns and trends, segmented customers to tailor marketing campaigns, and measured the effectiveness of marketing channels using attribution modeling. I conducted A/B testing to evaluate different marketing strategies and even used predictive analytics to forecast future trends."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
@@ -329,15 +436,47 @@ You will find below examples of my work broken into the following categories:"
           </div>
           <span className="litems">
             <WorkItem
-              title="Snowflake"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              title="API Integrations"
+              info="API integrations can significantly enhance business operations by connecting different software systems and enabling data sharing.
+<br />
+<br />
+I possess deep knowledge of API technologies, protocols, and best practices. I can navigate complex integration scenarios, ensuring compatibility and optimal performance. By streamlining the process, I can save businesses time and money by leveraging my experience and established methodologies. 
+<br />
+<br />
+Integration projects can involve risks such as data breaches, system failures, or performance issues. I can help identify and address potential risks, minimizing disruptions to business operations. Many industries have specific regulations and security requirements for data handling and sharing. I ensure that every API adheres to these standards, protecting sensitive information. Every integration should also be designed and implemented to accommodate future expansion because businesses often need to scale their API integrations as their operations grow."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
             />
             <WorkItem
-              title="Looker"
-              info="My first job out of college, I worked on the development team for IBM mobile application building platform. MobileFirst provided a framework that enabled the development, optimization, integration, and management of secure mobile apps. It allowed for experiences on   iOS, Android, Windows, and the Web using capabilities such as development, testing, back-end connections, push notifications, offline mode, update, security, analytics, monitoring, and application publishing."
+              title="Marketing Automation"
+              info="Marketing automation can significantly streamline and enhance marketing efforts by automating repetitive tasks, personalizing campaigns, and gaining valuable insights. I can help businesses develop a comprehensive marketing automation strategy that aligns with their overall business goals and objectives. With my experience with numerous marketing automation platforms I can evaluate options based on business needs, budget, and scalability.
+<br />
+<br />
+Integrating marketing automation systems with other business applications is crucial for a seamless workflow and my specialty. The new platform will generate valuable data that businesses can to measure performance, identify trends, and make data-driven decisions. I am also available to provide ongoing support and optimization.
+<br />
+<br />
+Hiring me to architect your a marketing automation operations can offer numerous benefits, from strategic guidance and platform selection to campaign optimization and data analysis. By leveraging my expertise, businesses can effectively implement and utilize marketing automation to drive growth, improve customer engagement, and achieve their marketing objectives."
+              imgs={[
+                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+              ]}
+            />
+            <WorkItem
+              title="UI / UX Development"
+              info="With every solution I make I first try and understand user needs, preferences, and behaviors. This analysis is used to create applications that resonate with the target audience. A well-designed UI/UX makes it easy for users to navigate and interact with your product. I can create visually stunning interfaces that align with your brand identity. A consistent user experience across different platforms and devices is essential for building brand loyalty.
+<br />
+<br />
+I have designed and developed a number of front end experiences and  can provide numerous benefits, from staring with a user-centric approach to improving conversion rates and building a competitive advantage. By investing in UI/UX design, you can create digital products that are compelling and drive growth."
+              imgs={[
+                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+              ]}
+            />
+            <WorkItem
+              title="Workshops / Training"
+              info="One of my favorite things to do is teach other people about a new technology and showing how it can improve their lives. I have developed a comprehensive and engaging curriculum that cover relevant topics, practical exercises, and hands-on activities all around digital transformation. I can ensure that all employees in a business are aligned with industry best practices and trends. Effective facilitation is crucial for successful workshops and training. Not only should the coordinator have the skills to create a conducive learning environment, manage discussions, and encourage active participation but they should be engaging and I am so much fun.
+<br />
+<br />
+I can design and implement technical software workshops and training to enhance the effectiveness of your learning initiatives, improve employee skills, and drive organizational success."
               imgs={[
                 "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
               ]}
