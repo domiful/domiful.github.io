@@ -73,27 +73,27 @@ You will find below examples of my work broken into the following categories:"
               title="Blender Monitor"
               info="A large blender company wanted a way to expand their existing capabilities for corporate customers by integrating the Cloud into their blenders. By connecting the blenders to the cloud they can track a number of metrics and provide predictive analysis for maintenance and other interests."
               imgs={[
-                "https://drive.google.com/thumbnail?id=1KpdhEDU4iPpokMzPklvYlX_ikIphZPvY",
-                "https://drive.google.com/thumbnail?id=1AlUcEc_7lmSvaA6qCIiP0ARtpNvl3fC1",
-                "https://drive.google.com/thumbnail?id=1HZk6PIHAUtpIoP6d0-_4qQs63c8MI0J6",
-                "https://drive.google.com/thumbnail?id=1FGhaUwx4uWkmD-M8NgYDtYYUJYhYi6bd",
+                "https://www.dropbox.com/scl/fi/a5hngb40sped4a3dcn1y5/v1.png?rlkey=b2bck8zq31zl1zmqavxf2fa10&raw=1",
+                "https://www.dropbox.com/scl/fi/18v0gynxfr2v8midz7bmq/v2.png?rlkey=bp7lwxne3ivaqa9fcnixixb7i&raw=1",
+                "https://www.dropbox.com/scl/fi/c83rso3smdoguw2niytzi/v3.png?rlkey=bi94092t8a64dyo5fu6oqtche&raw=1",
+                "https://www.dropbox.com/scl/fi/yzzhm4zjk6k2b0h23xbmb/v4.png?rlkey=08evkzhukziogybgb8fy256p2&raw=1",
               ]}
             />
             <WorkItem
               title="Prospect Finder"
               info="An insurance provider wanted a way for an agent to see all potential clients in a certain area, and see at a glance their potential for buying certain products. The potential was based on analytics from their existing client profiles."
               imgs={[
-                "https://drive.google.com/thumbnail?id=13758RFb8YpbTvBMbWhrR2TNL31Dfyr0W",
-                "https://drive.google.com/thumbnail?id=1uttGpED9bjm5THQ_7Uz60Ix0XXQiy3RZ",
+                "https://www.dropbox.com/scl/fi/kf9i9spmwkcgxvoj7i1df/pf1.png?rlkey=seo7hzfvxyihfqov64zsh2xdy&raw=1",
+                "https://www.dropbox.com/scl/fi/stgxkwuppv1tz1u04jzu7/pf2.png?rlkey=wofwyom6fuo7x1kic1aflgfvp&raw=1",
               ]}
             />
             <WorkItem
               title="Chatbot HRM"
               info="A client wanted an app they could give to managers so the could easily track payments and access human resource management functions. All functionality was initiated through the bot and all transactions were available either through the app or through existing channels."
               imgs={[
-                "https://drive.google.com/thumbnail?id=1Qrq5NqccBcqiBtI8lLsEQNN4W2mUUT7K",
-                "https://drive.google.com/thumbnail?id=1wxhlZqW_8UmfiE2F2CgiKto6g9NWD_Qj",
-                "https://drive.google.com/thumbnail?id=1u7uQVDiC_9lL4PTiKdWYlx8SbmUSgkiq",
+                "https://www.dropbox.com/scl/fi/psgxbu6xwi1rgp23k4zhh/aa1.png?rlkey=1z9svsufl0ykjpl8h0snu7qhk&raw=1",
+                "https://www.dropbox.com/scl/fi/4cdpks7ksbid7o0d8b4py/aa2.png?rlkey=nc3vuxkjqyc5iy3ezh5z7939h&raw=1",
+                "https://www.dropbox.com/scl/fi/6a7t2502883igusol3qio/aa3.png?rlkey=f3m1g5mdwoeiugj6co7qyqpe2&raw=1",
               ]}
             />
           </span>
@@ -120,8 +120,8 @@ You will find below examples of my work broken into the following categories:"
               link="https://www.charlesandcolvard.com/"
               info="One of the more complex sites I have worked on. Not because it is a Magento 2 site (that is an inside joke about Magento 2), but because of it’s many pages and products. They are an innovative company selling moissanite and it was a pleasure staring at their jewelry while I coded the front end."
               imgs={[
-                "https://drive.google.com/thumbnail?id=1Tz0DTOP9hy6gH3HYSVo5F2I11xmBjqj4&sz=w1000",
-                "https://drive.google.com/thumbnail?id=1FYR0iyHmm5u5QLUnVGbx98kk87CoI4cG&sz=w1000",
+                "https://www.dropbox.com/scl/fi/sxnrvnfk7x7vyljvo1txp/candc.png?rlkey=kyv4hlg36ysfmyxoyvfllio3r&raw=1",
+                "https://www.dropbox.com/scl/fi/n96e1av1czor9i4xdn4tw/candcm.png?rlkey=qqxvj9vkl2ahhr6dsynoctrut&raw=1",
               ]}
             />
             <WorkItem
@@ -129,8 +129,8 @@ You will find below examples of my work broken into the following categories:"
               link="https://www.cree.com/"
               info="One of the first large enterprise websites I worked on. Many developers and designers spent many hours creating this and their regional and division sites. Custom Frontend on a Mangento 1 backend. "
               imgs={[
-                "https://drive.google.com/thumbnail?id=1YqWtYFUmpX641sJeXex6xx2032k8oarA&sz=w1000",
-                "https://drive.google.com/thumbnail?id=1nSnJUh_90owT3q9PWTH4F7De8oBj_pru&sz=w1000",
+                "https://www.dropbox.com/scl/fi/aj43ri6ofhv6g2h7stlkm/cree.png?rlkey=bpkrb0sbxbphgww33gyks5mj5&raw=1",
+                "https://www.dropbox.com/scl/fi/oq5lo9nf5twcpu341w5pq/creem.png?rlkey=0yb4n5ltcaegy3f6et7v7rtul&raw=1",
               ]}
             />
             <WorkItem
@@ -138,8 +138,8 @@ You will find below examples of my work broken into the following categories:"
               link="https://riversagency.com/"
               info="This was my employer before Oracle. Many of the sites you see on this site were created there. One of the last projects I worked on while I was there was coding the revamp of the site. Custom frontend on top of a Wordpress backend."
               imgs={[
-                "https://drive.google.com/thumbnail?id=1VLHkx4uq5T7g-dYUx7367NQoH4Vus8SF&sz=w1000",
-                "https://drive.google.com/thumbnail?id=1h12qi7T2rsfW5Usd2zHxrU_gCAAr9KQg&sz=w1000",
+                "https://www.dropbox.com/scl/fi/o8srsb4zskyedym6gs6ge/rivers.png?rlkey=orhzzegui5wfb2mm7fx2pre7p&raw=1",
+                "https://www.dropbox.com/scl/fi/7nbhu2qplm91gtrqazt0o/riversm.png?rlkey=w0v7ktrcmladrcb92eip2g15y&raw=1",
               ]}
             />
             <WorkItem
@@ -147,8 +147,8 @@ You will find below examples of my work broken into the following categories:"
               link="https://smartiesstore.com/"
               info="I love this candy, so I was very excited when I got to work on it. The ladies at smarties needed a new simpler site to sell their wares. It has a Shopify backend and I created the category and product pages as well as many other random ones."
               imgs={[
-                "https://drive.google.com/thumbnail?id=1_wiR7jrLZNMCtcdbI8FfGk_JoXbi8fZH&sz=w1000",
-                "https://drive.google.com/thumbnail?id=1PybQLFx8TjoHMQYInfJaQiDHwwNqr_yW&sz=w1000",
+                "https://www.dropbox.com/scl/fi/mq8unoq579191imum18e0/smarties.png?rlkey=qgpekegaynund7gyle8iyaqf7&raw=1",
+                "https://www.dropbox.com/scl/fi/wkv6peyu81qfxn1q00n0e/smartiesm.png?rlkey=nynkxncjqr7ye9w3bdizr68lp&raw=1",
               ]}
             />
             <WorkItem
@@ -156,8 +156,8 @@ You will find below examples of my work broken into the following categories:"
               link="https://gonapsacc.org/"
               info="This site has a backend that I cannot recall, but I do know that it was old. With a nonprofit sized budget we revamped the site and made it more responsive on mobile."
               imgs={[
-                "https://drive.google.com/thumbnail?id=1BZaua050PKpYu4guq4o0EB5KJeLHst6w&sz=w1000",
-                "https://drive.google.com/thumbnail?id=1wx8w5Zm9mwa7N0tLg0avrVWUK6zCbKKt&sz=w1000",
+                "https://www.dropbox.com/scl/fi/pklhe1mz9lq1lxzhc33en/napsacc.png?rlkey=gkcupyjby9q8pije7qpuv38fm&raw=1",
+                "https://www.dropbox.com/scl/fi/x0fck11tnixtgns5xlbpz/napsaccm.png?rlkey=8molpjl0jxeycpbhtn54s60ny&raw=1",
               ]}
             />
             <WorkItem
@@ -165,13 +165,13 @@ You will find below examples of my work broken into the following categories:"
               link="https://www.fantasticsams.com/"
               info="A site on top of Drupal that needed a little of TLC. I worked mainly on UI tweaks and bug fixes to make the site more functional and responsive. "
               imgs={[
-                "https://drive.google.com/thumbnail?id=1ZzpGQmrDr8892FWAGM0OuWLBaNEnq1cq&sz=w1000",
-                "https://drive.google.com/thumbnail?id=1nbjXHcPW8Tva81uCNnHD9D9AY7ejUJq1",
+                "https://www.dropbox.com/scl/fi/sr9gwt895ggtjrcg88z2b/fsams.png?rlkey=blgqhldjq5qhr7imslrye030x&raw=1",
+                "https://www.dropbox.com/scl/fi/2m7tc4i5jh267rg64yzf1/fsamsm.png?rlkey=aprnpt1uxo2dwac4yjo8f8d7w&raw=1",
               ]}
             />
             <WorkItem
-              title="This site"
-              info="I designed and coded this site myself. With the exception for the websites that goes for the content too. The websites were designed by graphic designers at Rivers Agency, but I had to turn their vision into reality by coding them. I will continue to update the site. I already have a pipeline of content!"
+              title="This site: Updating to 2.0!"
+              info="I am in the process of updating the styling, adding way more content, and fixing some bugs. <br /><br /><b>Update 1:</b> Nearly final version of the new theme.<br /><br /><b>Update 2:</b> New image hosting provider. Stay tuned for more content soon!<br /><br />I designed and coded this site myself. With the exception for the websites that goes for the content too. The websites were designed by graphic designers at Rivers Agency, but I had to turn their vision into reality by coding them. I will continue to update the site. I already have a pipeline of content!"
               imgs={[site]}
             />
           </span>
@@ -210,78 +210,81 @@ You will find below examples of my work broken into the following categories:"
             <WorkItem
               title="Oracle Cloud Infrastructure"
               info="<b>Iaas</b>
-<br />
-<br />
-As a solutions engineer, I leveraged Oracle Cloud Infrastructure to create powerful proof-of-concepts and demos. OCI's comprehensive suite of IaaS solutions allowed me to build and deploy applications and data in the cloud.
-<br />
-I utilized compute resources like virtual machines, bare metal instances, and GPUs to meet various performance and scalability requirements. For storage, I used object storage, block storage, and file storage to accommodate different data types and access needs.
-<br />
-I also implemented Database services like Oracle Autonomous Database and Oracle Database Cloud to provide reliable and scalable data storage and management.
-<br />
-<br />
-<b>App Dev</b>
-<br />
-<br />
-As a solutions engineer, I integrated mobile and AI technologies into OCI-based enterprise solutions to deliver exceptional front-end experiences.
-For instance, in the e-commerce platform, I developed native mobile apps for iOS and Android to provide a seamless shopping experience. These apps implemented real-time chatbots powered by natural language processing (NLP) to provide instant customer support.
-<br />
-In the ERP modernization project, I integrated mobile apps for field workers to access critical business data and perform tasks on the go. These apps utilized AI-powered image recognition to automate processes like inventory management and asset tracking. Additionally, I implemented AI-driven predictive analytics within the ERP system to forecast demand and optimize supply chain operations.
-<br />
-For the healthcare organization's EHR system, I developed a mobile app for patients to access their medical records, schedule appointments, and communicate with healthcare providers. The app incorporated AI-powered virtual assistants to answer common health questions and provide personalized health recommendations.
-<br />
-By integrating mobile and AI technologies, I was able to create more user-friendly, efficient, and intelligent enterprise solutions. These solutions not only improved user experiences but also drove business value by automating tasks, enhancing decision-making, and fostering stronger customer relationships.
-"
+                    <br />
+                    <br />
+                    As a solutions engineer, I leveraged Oracle Cloud Infrastructure to create powerful proof-of-concepts and demos. OCI's comprehensive suite of IaaS solutions allowed me to build and deploy applications and data in the cloud.
+                    <br />
+                    I utilized compute resources like virtual machines, bare metal instances, and GPUs to meet various performance and scalability requirements. For storage, I used object storage, block storage, and file storage to accommodate different data types and access needs.
+                    <br />
+                    I also implemented Database services like Oracle Autonomous Database and Oracle Database Cloud to provide reliable and scalable data storage and management.
+                    <br />
+                    <br />
+                    <b>App Dev</b>
+                    <br />
+                    <br />
+                    As a solutions engineer, I integrated mobile and AI technologies into OCI-based enterprise solutions to deliver exceptional front-end experiences.
+                    For instance, in the e-commerce platform, I developed native mobile apps for iOS and Android to provide a seamless shopping experience. These apps implemented real-time chatbots powered by natural language processing (NLP) to provide instant customer support.
+                    <br />
+                    In the ERP modernization project, I integrated mobile apps for field workers to access critical business data and perform tasks on the go. These apps utilized AI-powered image recognition to automate processes like inventory management and asset tracking. Additionally, I implemented AI-driven predictive analytics within the ERP system to forecast demand and optimize supply chain operations.
+                    <br />
+                    For the healthcare organization's EHR system, I developed a mobile app for patients to access their medical records, schedule appointments, and communicate with healthcare providers. The app incorporated AI-powered virtual assistants to answer common health questions and provide personalized health recommendations.
+                    <br />
+                    By integrating mobile and AI technologies, I was able to create more user-friendly, efficient, and intelligent enterprise solutions. These solutions not only improved user experiences but also drove business value by automating tasks, enhancing decision-making, and fostering stronger customer relationships.
+                    "
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/6yb8yy0wbvhqegqzhlaue/oci2.jpg?rlkey=lfq1edh5yav1og5iqmw0htkmv&st=w7osfbgl&raw=1",
               ]}
             />
             <WorkItem
               title="Kinvey"
               info="<b>Mbaas</b>
-<br />
-<br />
-A Mobile Backend as a Service (MBaaS) is a cloud-based service that helps developers build mobile app backends. A MBaaS provides a consistent way to manage backend data, and acts as a bridge between the front-end of an app and various cloud-based backends. A MBaaS is specifically for mobile apps, while a Backend as a Service (BaaS) is more traditional and is used for web-based apps.
-<br />
-Kinvey handles all the server-side components needed for mobile apps to work, such as: Databases, Push notifications, API services, Authentication, Hosting, and File storage. I used it for a number of projects through its low code and no code integrations.
-<br />
-<br />
-<b>Serverless</b>
-<br />
-<br />
-Kinvey provides a couple of ways to write server-side code for your mobile, web, or chatbot apps: Business Logic and Flex. Both enable you to focus on the functional business logic of an application while Kinvey handles the work of receiving, parsing, and routing requests, connecting to and querying data stores.
-<br />
-I used Kinvey Flex’s data integration services, authentication services, and other functions to create Node.js projects and deploy them either on a Kinvey runtime.
-This approach has the benefit of having access to unlimited NPM libraries, including bridges to proprietary solutions like Oracle in case you choose to run it outside of the Kinvey runtime. Other benefits include compatibility with continuous integration and support for local testing
-<br />
-<br />
-<b>NativeScript</b>
-The official NativeScript website: https://nativescript.org/
-<br />
-<br />
-NativeScript is an open-source framework that allows you to build native mobile apps for iOS and Android using JavaScript, or a language that compiles to JavaScript like TypeScript.
-<br />
-While working at Progress I used NativeScript in tandem with other mobile languages to build custom mobile solutions for clients."
+                    <br />
+                    <br />
+                    A Mobile Backend as a Service (MBaaS) is a cloud-based service that helps developers build mobile app backends. A MBaaS provides a consistent way to manage backend data, and acts as a bridge between the front-end of an app and various cloud-based backends. A MBaaS is specifically for mobile apps, while a Backend as a Service (BaaS) is more traditional and is used for web-based apps.
+                    <br />
+                    Kinvey handles all the server-side components needed for mobile apps to work, such as: Databases, Push notifications, API services, Authentication, Hosting, and File storage. I used it for a number of projects through its low code and no code integrations.
+                    <br />
+                    <br />
+                    <b>Serverless</b>
+                    <br />
+                    <br />
+                    Kinvey provides a couple of ways to write server-side code for your mobile, web, or chatbot apps: Business Logic and Flex. Both enable you to focus on the functional business logic of an application while Kinvey handles the work of receiving, parsing, and routing requests, connecting to and querying data stores.
+                    <br />
+                    I used Kinvey Flex’s data integration services, authentication services, and other functions to create Node.js projects and deploy them either on a Kinvey runtime.
+                    This approach has the benefit of having access to unlimited NPM libraries, including bridges to proprietary solutions like Oracle in case you choose to run it outside of the Kinvey runtime. Other benefits include compatibility with continuous integration and support for local testing
+                    <br />
+                    <br />
+                    <b>NativeScript</b>
+                    The official NativeScript website: https://nativescript.org/
+                    <br />
+                    <br />
+                    NativeScript is an open-source framework that allows you to build native mobile apps for iOS and Android using JavaScript, or a language that compiles to JavaScript like TypeScript.
+                    <br />
+                    While working at Progress I used NativeScript in tandem with other mobile languages to build custom mobile solutions for clients."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/dym2h89ql8qc6eq1zacgm/lowcode.JPG?rlkey=onivqnr1jq5hj3lngdyj2233k&st=jh06yqan&raw=1",
+                "https://www.dropbox.com/scl/fi/2gsz1bxljuuekvkzpfkcd/architecture.png?rlkey=if5r0jugm9m1zia238pbixgr1&st=ddtlietr&raw=1",
+                "https://www.dropbox.com/scl/fi/emlo541n332i9j0cjkddd/nativescript.png?rlkey=x34u48wbrdns094xyv7gn3tx0&st=d9xk6ur2&raw=1",
               ]}
             />
             <WorkItem
               title="Sitefinity"
               info="<b>CMS</b>
-<br />
-<br />
-Sitefinity goes beyond basic website creation. It integrates with marketing tools and allows you to manage your content and campaigns across multiple channels, like social media and email. It also allows you to personalize the user experience by tailoring content and offers to individual visitors based on their preferences and behavior.
-Additionally, it’s a scalable platform that can accommodate the growth of your business and website traffic. 
-<br />
-Sitefinity’s user-friendly interface, efficient workflows, marketing tools, personalization features, and scalability made it an easy product to demonstrate the benefits of. My job was to show how valuable an option for businesses looking to create and manage effective digital experiences it was through custom POCs and demos.
-<br /><br />
-<b>Insight</b>
-<br /><br />
-Sitefinity Insight is a companion platform to Sitefinity CMS, but with a specific focus on audience intelligence and data-driven marketing. It goes beyond basic website analytics. It gathers and analyzes data from various sources to create comprehensive profiles of your website visitors. This allows you to understand their demographics, preferences, behavior patterns, and how they interact with your brand across different channels. Sitefinity Insight also tracks the performance of your marketing campaigns across channels. It can set up alerts to notify you of any significant changes in user behavior or campaign performance.
-<br />
-Sitefinity Insight transforms Sitefinity CMS from a content management tool to a data-driven marketing platform. I not only used this as part of my POCs, but also as a Technical Marketing Engineer I managed the installation and personalization of the service for a few of Progress’s production websites. "
+                    <br />
+                    <br />
+                    Sitefinity goes beyond basic website creation. It integrates with marketing tools and allows you to manage your content and campaigns across multiple channels, like social media and email. It also allows you to personalize the user experience by tailoring content and offers to individual visitors based on their preferences and behavior.
+                    Additionally, it’s a scalable platform that can accommodate the growth of your business and website traffic. 
+                    <br />
+                    Sitefinity’s user-friendly interface, efficient workflows, marketing tools, personalization features, and scalability made it an easy product to demonstrate the benefits of. My job was to show how valuable an option for businesses looking to create and manage effective digital experiences it was through custom POCs and demos.
+                    <br /><br />
+                    <b>Insight</b>
+                    <br /><br />
+                    Sitefinity Insight is a companion platform to Sitefinity CMS, but with a specific focus on audience intelligence and data-driven marketing. It goes beyond basic website analytics. It gathers and analyzes data from various sources to create comprehensive profiles of your website visitors. This allows you to understand their demographics, preferences, behavior patterns, and how they interact with your brand across different channels. Sitefinity Insight also tracks the performance of your marketing campaigns across channels. It can set up alerts to notify you of any significant changes in user behavior or campaign performance.
+                    <br />
+                    Sitefinity Insight transforms Sitefinity CMS from a content management tool to a data-driven marketing platform. I not only used this as part of my POCs, but also as a Technical Marketing Engineer I managed the installation and personalization of the service for a few of Progress’s production websites. "
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/vv6d34ghg4x25qznb8pfd/sitefinity.png?rlkey=peedwx9ghnm1g6gx9nz1ubw5l&st=32cz4o6h&raw=1",
+                "https://www.dropbox.com/scl/fi/h01bea1qrh3st6xfx5b3v/cms.png?rlkey=7j09y27a1nv6lmlw642utu5mf&st=3ab59yeu&raw=1",
               ]}
             />
             <WorkItem
@@ -291,7 +294,7 @@ Sitefinity Insight transforms Sitefinity CMS from a content management tool to a
 <br />
 I used MOVEit to integrate with other applications and systems to integrate secure data was transferred between various business environments. Its APIs are easy to incorporate into existing workflows, making it easy to add security to vulnerable applications."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/w4mjzv6yzm7jyh0qkc2en/moveit.png?rlkey=b8w3dvq6u6hgulgdcx79bxo3b&st=rc5irsns&raw=1",
               ]}
             />
           </span>
@@ -331,7 +334,7 @@ While offering guidance to developers I produced blog posts, tutorials, videos, 
 <br />
 I love building a strong and engaged community around through the strength of the products I am working with. I can help drive awareness, adoption, and loyalty among your target audience by providing valuable content, support, and fostering connections on social media."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/c1yy2mda22vowtjc2282u/Screenshot-2024-03-09-at-22.57.06.png?rlkey=4xpu7zu9t54601tj22jpq3i57&st=xa39ouxz&raw=1",
               ]}
             />
             <WorkItem
@@ -352,7 +355,8 @@ Networking has been a valuable aspect of my conference experiences. I've connect
 <br />
 As a technical SME, I've created a variety of content to share my expertise and connect with my audience. I've developed infographics, videos, and slideshows to visually represent complex concepts. To engage with my audience more interactively, I've created online courses, webinars, and podcasts. I've also participated in online communities and forums to answer questions and connect with other experts. By sharing this diverse content, I've been able to position myself as a thought leader, build my personal brand, and attract new opportunities."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/pnukvkcz0xofww9x4jbv8/conference.png?rlkey=s24s6xfyjxk44gui2heg5hq3z&st=k1qmtc2x&raw=1",
+                "https://www.dropbox.com/scl/fi/lqh68al64p9ynbyzt47u9/workshop.png?rlkey=i3og6w6v1e8w3kckxc0w3db0f&st=foqzdnst&raw=1",
               ]}
             />
           </span>
@@ -399,7 +403,9 @@ They both integrate seamlessly with other Oracle products and third-party applic
 <br />
 As a Solutions Engineer my job was to integrate Oracle Database or MySQL into on-premises, in the cloud, and in a hybrid environments. They seamlessly integrate with OCI, providing a comprehensive cloud platform for database management and scaling."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/0qvymzfzi73nwy93onx92/snowflake.png?rlkey=nebkl3bfgi0kwbhb13t0k5ju2&st=2uw7yjpf&raw=1",
+                "https://www.dropbox.com/scl/fi/l6iuqj2bjjtzagpuv0l50/mysql.png?rlkey=upydl0zdzn3wwn9onxqto74bk&st=9stl8otd&raw=1",
+                "https://www.dropbox.com/scl/fi/w5keuabhm9ii3b30n6950/oracle-database.png?rlkey=h5elk5j5kllbjge0uqtwslakx&st=s4kn8jdz&raw=1",
               ]}
             />
             <WorkItem
@@ -412,7 +418,8 @@ I created custom dashboards to visualize specific marketing metrics and trends, 
 <br />
 I explored data to uncover hidden patterns and trends, segmented customers to tailor marketing campaigns, and measured the effectiveness of marketing channels using attribution modeling. I conducted A/B testing to evaluate different marketing strategies and even used predictive analytics to forecast future trends."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/23nvtygrz9916zqdvfz8p/looker.jpg?rlkey=iv3wrgjy2cpzfkm7ytmlsjvzo&st=ac4yvgrh&raw=1",
+                "https://www.dropbox.com/scl/fi/pb5m9kbe6stirmtplyv0s/looker-dashboard.webp?rlkey=vphxrti6xnabn1vj9hbe39gdp&st=jui9nw2q&raw=1",
               ]}
             />
           </span>
@@ -554,8 +561,8 @@ If you're seeking a digital consultant who can help you drive innovation, optimi
                     The marketing curriculum at Columbia is equally impressive, focusing on both traditional and digital marketing strategies. I gained expertise in areas such as brand management, consumer behavior, and data analytics."
               section={props.section}
               imgs={[
-                "https://www.rit.edu/brandportal/sites/rit.edu.brandportal/files/inline-images/new_RIT_logo1_RGB_0.png",
-                "https://mlt.org/wp-content/uploads/2015/12/Columbia-Business-School-Logo-FC-2.png",
+                "https://www.dropbox.com/scl/fi/pxwwu0ykl4gsy2siao5co/rit.png?rlkey=f9rya1ottxebx08domerb7o3z&st=9m7xtzsp&raw=1",
+                "https://www.dropbox.com/scl/fi/tszvlwmstxdjk39nz2qzp/cbs.png?rlkey=5whquh0tsvhi5j6nnfbzjrozd&st=96dhkyi9&raw=1",
               ]}
             />
           </span>
