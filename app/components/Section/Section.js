@@ -209,6 +209,7 @@ You will find below examples of my work broken into the following categories:"
           <span className="litems">
             <WorkItem
               title="Oracle Cloud Infrastructure"
+              link="https://www.oracle.com/cloud/"
               info="<b>Iaas</b>
                     <br />
                     <br />
@@ -237,6 +238,7 @@ You will find below examples of my work broken into the following categories:"
             />
             <WorkItem
               title="Kinvey"
+              link="https://devcenter.kinvey.com/rest/guides/core-overview"
               info="<b>Mbaas</b>
                     <br />
                     <br />
@@ -254,8 +256,7 @@ You will find below examples of my work broken into the following categories:"
                     This approach has the benefit of having access to unlimited NPM libraries, including bridges to proprietary solutions like Oracle in case you choose to run it outside of the Kinvey runtime. Other benefits include compatibility with continuous integration and support for local testing
                     <br />
                     <br />
-                    <b>NativeScript</b>
-                    The official NativeScript website: https://nativescript.org/
+                    <b><a href='https://nativescript.org/' alt='nativescript link'>NativeScript</a></b>
                     <br />
                     <br />
                     NativeScript is an open-source framework that allows you to build native mobile apps for iOS and Android using JavaScript, or a language that compiles to JavaScript like TypeScript.
@@ -269,6 +270,7 @@ You will find below examples of my work broken into the following categories:"
             />
             <WorkItem
               title="Sitefinity"
+              link="https://www.progress.com/sitefinity-cms"
               info="<b>CMS</b>
                     <br />
                     <br />
@@ -277,7 +279,7 @@ You will find below examples of my work broken into the following categories:"
                     <br />
                     Sitefinity’s user-friendly interface, efficient workflows, marketing tools, personalization features, and scalability made it an easy product to demonstrate the benefits of. My job was to show how valuable an option for businesses looking to create and manage effective digital experiences it was through custom POCs and demos.
                     <br /><br />
-                    <b>Insight</b>
+                    <b><a href='https://www.progress.com/sitefinity-cms/insight' alt='sitefinity link'>Sitefinity Insight</a></b>
                     <br /><br />
                     Sitefinity Insight is a companion platform to Sitefinity CMS, but with a specific focus on audience intelligence and data-driven marketing. It goes beyond basic website analytics. It gathers and analyzes data from various sources to create comprehensive profiles of your website visitors. This allows you to understand their demographics, preferences, behavior patterns, and how they interact with your brand across different channels. Sitefinity Insight also tracks the performance of your marketing campaigns across channels. It can set up alerts to notify you of any significant changes in user behavior or campaign performance.
                     <br />
@@ -289,6 +291,7 @@ You will find below examples of my work broken into the following categories:"
             />
             <WorkItem
               title="MOVEit"
+              link="https://www.progress.com/moveit"
               info="MOVEit is a versatile file transfer solution developed by Progress, to securely and efficiently transfer files, especially those containing sensitive data. It offers robust encryption and authentication mechanisms to protect data during transmission, ensuring compliance with industry regulations like HIPAA, GDPR, and PCI DSS. It also provides automation capabilities, allowing users to schedule file transfers and define workflows to streamline processes.
 <br />
 <br />
@@ -316,6 +319,7 @@ I used MOVEit to integrate with other applications and systems to integrate secu
           <span className="litems">
             <WorkItem
               title="Content Generation"
+              link="https://release.nl/2409013/gepersonaliseerde-webportals-om-gebruikers-beter-van-dienst-te-zijn.html"
               info="<b>Article: Personalized Web Portals</b>
 <br />
 <br />
@@ -382,19 +386,18 @@ As a technical SME, I've created a variety of content to share my expertise and 
           <span className="litems">
             <WorkItem
               title="SQL"
-              info="<b>SQL</b>
-<br />
+              info="
 <br />
 I have used SQL in most of the applications i have built to store and manipulate data in databases.
 <br /><br />
-<b>Snowflake</b>
+<b><a href='https://www.snowflake.com/' alt='Snowflake link'>Snowflake</a></b>
 <br /><br />
 I interned at Block as Data Analyst for hardware marketing team. One of my main focuses was to find trends and impact within a data warehouse in Snowflake.
 <br />Snowflake is a powerful cloud-based data warehousing and analytics platform that offers a wide range of capabilities for data analysts.
 <br />It provides a highly scalable and secure environment for storing large amounts of data. Snowflake also supports loading data from a variety of sources, including files, databases, and applications. I used SQL on Snowflake to perform complex queries and analysis on large datasets for marketing campaign analysis.
 <br />
 <br />
-<b>Oracle DB & MySQL</b>
+<b><a href='https://www.oracle.com/database/' alt='Oracle DB link'>Oracle DB</a> & <a href='https://www.mysql.com/' alt='MySQL link'>MySQL</a></b>
 <br />
 <br />
 Oracle Database and MySQL are a powerful relational database management systems that offer a comprehensive set of features for managing and storing data. They are widely used by organizations of all sizes due to their reliability, performance, and scalability.
@@ -410,6 +413,7 @@ As a Solutions Engineer my job was to integrate Oracle Database or MySQL into on
             />
             <WorkItem
               title="Looker"
+              link="https://cloud.google.com/looker"
               info="As a marketing analyst, I found Looker to be an invaluable tool. It helped me centralize data from various sources, providing a unified view of marketing performance. I was able to access real-time data to make informed decisions quickly.
 <br />
 <br />

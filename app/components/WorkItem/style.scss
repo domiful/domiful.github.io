@@ -1,10 +1,11 @@
 $blue: #57a6f8;
-$green: #778686;
+$grey: #778686;
 $yellow: #efd565;
 $orange: #f7a635;
 $red: #ee6a64;
 $purple: #a770c1;
 $pink: #f2a7dd;
+$green: #485a3c;
 
 $midi: 768px;
 $mini: 414px;
@@ -50,6 +51,14 @@ $mini: 414px;
       font-weight: 400;
       line-height: 1.1;
       width: 95%;
+
+      a {
+        color: $grey;
+
+        &:hover {
+          color: $green;
+        }
+      }
 
       //&.about{border-top: 0.06em dotted $blue;}
       //&.dev{border-top: 0.06em dotted $green;}
