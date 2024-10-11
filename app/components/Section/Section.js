@@ -452,7 +452,7 @@ I possess deep knowledge of API technologies, protocols, and best practices. I c
 <br />
 Integration projects can involve risks such as data breaches, system failures, or performance issues. I can help identify and address potential risks, minimizing disruptions to business operations. Many industries have specific regulations and security requirements for data handling and sharing. I ensure that every API adheres to these standards, protecting sensitive information. Every integration should also be designed and implemented to accommodate future expansion because businesses often need to scale their API integrations as their operations grow."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/budhr3mwialqke4tj019j/api.png?rlkey=bn6yvi28moi987rdxsz7wbjay&st=l6tj59qi&raw=1",
               ]}
             />
             <WorkItem
@@ -465,7 +465,7 @@ Integrating marketing automation systems with other business applications is cru
 <br />
 Hiring me to architect your a marketing automation operations can offer numerous benefits, from strategic guidance and platform selection to campaign optimization and data analysis. By leveraging my expertise, businesses can effectively implement and utilize marketing automation to drive growth, improve customer engagement, and achieve their marketing objectives."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/egehza4lzlh6kk3tgndsr/marketing.png?rlkey=6gsdhq8ottbo2cwubanvpwcnw&st=qvy85uh5&raw=1",
               ]}
             />
             <WorkItem
@@ -475,7 +475,7 @@ Hiring me to architect your a marketing automation operations can offer numerous
 <br />
 I have designed and developed a number of front end experiences and  can provide numerous benefits, from staring with a user-centric approach to improving conversion rates and building a competitive advantage. By investing in UI/UX design, you can create digital products that are compelling and drive growth."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/8t5fbhbi9031uhcsag694/uiux.png?rlkey=i9vwlfoydy4gawyr843owfg60&st=jy6pyubf&raw=1",
               ]}
             />
             <WorkItem
@@ -485,7 +485,7 @@ I have designed and developed a number of front end experiences and  can provide
 <br />
 I can design and implement technical software workshops and training to enhance the effectiveness of your learning initiatives, improve employee skills, and drive organizational success."
               imgs={[
-                "https://adtmag.com/articles/2016/06/23/~/media/ECG/adtmag/Images/2016/06/mobilefirst_experience.png",
+                "https://www.dropbox.com/scl/fi/fbu8p3cfmp9z17y1b633l/workshops.png?rlkey=3it5eu1vcxsjokicnuq15k18d&st=t462m8q0&raw=1",
               ]}
             />
           </span>
