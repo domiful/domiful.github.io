@@ -403,9 +403,9 @@ They both integrate seamlessly with other Oracle products and third-party applic
 <br />
 As a Solutions Engineer my job was to integrate Oracle Database or MySQL into on-premises, in the cloud, and in a hybrid environments. They seamlessly integrate with OCI, providing a comprehensive cloud platform for database management and scaling."
               imgs={[
-                "https://www.dropbox.com/scl/fi/0qvymzfzi73nwy93onx92/snowflake.png?rlkey=nebkl3bfgi0kwbhb13t0k5ju2&st=2uw7yjpf&raw=1",
-                "https://www.dropbox.com/scl/fi/l6iuqj2bjjtzagpuv0l50/mysql.png?rlkey=upydl0zdzn3wwn9onxqto74bk&st=9stl8otd&raw=1",
-                "https://www.dropbox.com/scl/fi/w5keuabhm9ii3b30n6950/oracle-database.png?rlkey=h5elk5j5kllbjge0uqtwslakx&st=s4kn8jdz&raw=1",
+                "https://www.dropbox.com/scl/fi/c3pqpemq1r0a6m0qgmjd2/snowflake.webp?rlkey=8l1u2t1n5cgwy2i0uxvmnqfc8&st=i1wv1qxq&raw=1",
+                "https://www.dropbox.com/scl/fi/f9jjg3a0fr04szwgky4o9/oracle-database.png?rlkey=41wf9v00k7868wnp4pyukxy9b&st=kz49abt9&raw=1",
+                "https://www.dropbox.com/scl/fi/5gtl0jy3xzcsv874k7j35/mysql.png?rlkey=uhbpmk7vxkdoeepa1t3quc5tn&st=l9g9xnd6&raw=1",
               ]}
             />
             <WorkItem
